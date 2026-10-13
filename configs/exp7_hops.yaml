@@ -1,0 +1,21 @@
+name: exp7_hops
+description: >
+  E7 multi-hop (experimental only; the theory covers one hop). T = 1-3
+  exchange hops per round for v2 and W-MSR: accuracy, false alarms and
+  messages per round.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+n_byz: [0, 2, 4]
+adversaries: [A1, A2, A5]
+methods:
+  local:          {rule: local}
+  bf_v2_T1:       {rule: bf_v2, hops: 1}
+  bf_v2_T2:       {rule: bf_v2, hops: 2}
+  bf_v2_T3:       {rule: bf_v2, hops: 3}
+  wmsr_F2_T1:     {rule: wmsr, F: 2, hops: 1}
+  wmsr_F2_T2:     {rule: wmsr, F: 2, hops: 2}
+  wmsr_F2_T3:     {rule: wmsr, F: 2, hops: 3}

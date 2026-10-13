@@ -1,0 +1,21 @@
+name: exp6_scenario
+description: >
+  E6 sensitivity to the flood and fault layout: spread speed 0.5-2 hops
+  per round, Byzantine cameras next to the flood (bfs) or at random.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+sweep:
+  - {key: scenario.speed, values: [0.5, 1.0, 2.0]}
+  - {key: faults.placement, values: [bfs, random]}
+n_byz: [0, 2, 4]
+adversaries: [A1, A2, A8]
+methods:
+  local:          {rule: local}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

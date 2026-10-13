@@ -1,0 +1,5 @@
+run,app_id,state,created,stopped,wall_min,cost_CPU,cost_L4,cost_Memory,cost_total,billing_complete
+detector_base,ap-H8HY6Kx6VNyBQDkg0qtrfK,stopped,2026-10-05 13:24:58+03:00,2026-10-05 14:15:18+03:00,50.3,0.3369,0.6684,0.107,1.1123,1
+detector_no_fisheye,ap-yk0m0TkYLlSvU82alUm7Wj,stopped,2026-10-05 13:24:58+03:00,2026-10-05 13:57:03+03:00,32.1,0.2104,0.4253,0.0681,0.7037,1
+detector_no_nuisance,ap-05r4RZ7H1rIS3dYoaQVw5y,stopped,2026-10-05 13:24:58+03:00,2026-10-05 13:39:03+03:00,14.1,0.0899,0.1858,0.0297,0.3054,1
+detector_sim2real,ap-IBSqi6QluSCtNGbZsflhAf,stopped,2026-10-05 13:24:58+03:00,2026-10-05 13:52:15+03:00,27.3,0.1786,0.3613,0.0578,0.5977,1

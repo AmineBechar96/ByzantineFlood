@@ -1,0 +1,4 @@
+run,app_id,state,created,stopped,wall_min,cost_CPU,cost_L4,cost_Memory,cost_total,billing_complete
+detector_base,ap-H8HY6Kx6VNyBQDkg0qtrfK,stopped,2026-10-05 13:24:58+03:00,2026-10-05 14:15:18+03:00,50.3,0.3369,0.6684,0.107,1.1123,1
+detector_sim2real_dryval,ap-IBSqi6QluSCtNGbZsflhAf,stopped,2026-10-05 13:24:58+03:00,2026-10-05 13:52:15+03:00,27.3,0.1786,0.3613,0.0578,0.5977,1
+detector_sim2real,ap-E7mrtQe3YBnOBWb0aC72UA,stopped,2026-10-05 15:09:31+03:00,2026-10-05 15:36:15+03:00,26.7,0.1754,0.3546,0.0567,0.5867,0

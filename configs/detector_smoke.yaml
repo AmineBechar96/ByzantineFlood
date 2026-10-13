@@ -1,0 +1,18 @@
+# Smoke test: tiny run to check the pipeline end to end on Modal (~$0.05).
+name: detector_smoke
+sources: [deepflood, alleyfloodnet, fisheye8k, grok]
+folds: 5
+run_folds: 1
+epochs: 1
+max_train: 64
+max_test: 32
+batch_size: 16
+size: 384
+lr_backbone: 1.0e-4
+lr_head: 1.0e-3
+weight_decay: 1.0e-4
+patience: 3
+num_workers: 4
+seed: 0
+augment: {p_fisheye: 0.7, nuisance: true}
+fisheye_test: true

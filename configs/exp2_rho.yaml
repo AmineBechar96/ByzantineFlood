@@ -1,0 +1,21 @@
+name: exp2_rho
+description: >
+  E2 detector quality. Lower the effective accuracy of the real belief bank
+  by swapping beliefs with an adjacent level (swap 0-0.5). Shows when
+  fusion helps (weak detectors) and when it costs (strong ones).
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+sweep:
+  - {key: detector.swap, values: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]}
+n_byz: [0, 2, 4]
+adversaries: [A1, A2]
+methods:
+  local:          {rule: local}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

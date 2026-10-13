@@ -1,0 +1,21 @@
+name: exp4_faults
+description: >
+  E4 benign faults. Hazard-induced camera crashes (0-4) and message loss
+  (0-30 %) together with 0 or 2 Byzantine cameras.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+sweep:
+  - {key: faults.n_crash, values: [0, 2, 4]}
+  - {key: loss, values: [0.0, 0.1, 0.2, 0.3]}
+n_byz: [0, 2]
+adversaries: [A1]
+methods:
+  local:          {rule: local}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

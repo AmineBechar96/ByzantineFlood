@@ -1,0 +1,32 @@
+name: exp11_pond
+description: >
+  E11 steep gradient: one pond camera (degree >= 4, not the epicentre,
+  drawn from the seed, never faulty) two or more levels above its
+  neighbours. Mode isolated: the city stays dry and the pond has the level
+  from t0. Mode inside: the flood spreads as in E1 and the pond has
+  min(4, flood + level - 1) once the flood reaches it (+2 at level 3).
+  Without attack, A1 and AW with 2 Byzantine cameras.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8,
+           pond: {node: random, level: 3, mode: isolated}}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+loss: 0.0
+seeds: 50
+sweep:
+  - {key: scenario.pond.level, values: [2, 3]}
+  - {key: scenario.pond.mode, values: [isolated, inside]}
+cases:
+  - {adversary: none, n_byz: 0}
+  - {adversary: A1, n_byz: 2}
+  - {adversary: AW, n_byz: 2}
+methods:
+  local:          {rule: local}
+  unfiltered:     {rule: unfiltered_mean}
+  coord_median:   {rule: coord_median}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  bf_v2_a3:       {rule: bf_v2, alpha: 3}
+  oracle:         {rule: oracle}

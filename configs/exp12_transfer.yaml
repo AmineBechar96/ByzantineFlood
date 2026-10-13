@@ -1,0 +1,40 @@
+name: exp12_transfer
+description: >
+  E12 threshold transfer. Each rule keeps the alarm threshold tuned in exp10
+  without attack (paper Table IV: unfiltered 0.75, majority 0.85, coordinate
+  median 0.85, W-MSR F=2 0.35, FTM 0.90, oracle 0.65; ByzantineFlood and the
+  single camera use their normal output) and is tested in seven settings,
+  without attack and under AW with 2 Byzantine cameras. The full tau sweep
+  is run in every setting, so the threshold can also be re-tuned there
+  (scripts/make_figures.py, TRANSFER.md, tab_transfer).
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+loss: 0.0
+seeds: 50
+fixed_tau: {unfiltered: 0.75, majority: 0.85, coord_median: 0.85, wmsr_F2: 0.35,
+            bf_v1: 0.90, oracle: 0.65}
+settings:
+  - {name: base, set: {}}
+  - {name: swap0.2, set: {detector.swap: 0.2}}
+  - {name: swap0.4, set: {detector.swap: 0.4}}
+  - {name: k6, set: {graph.k: 6, scenario.reference_k: 4}}
+  - {name: speed0.5, set: {scenario.speed: 0.5}}
+  - {name: speed2, set: {scenario.speed: 2.0}}
+  - {name: rgg100, set: {graph: {type: rgg, n: 100, k: 4}, seeds: 20}}
+cases:
+  - {adversary: none, n_byz: 0}
+  - {adversary: AW, n_byz: 2}
+sweep_threshold: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50,
+                  0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+methods:
+  local:          {rule: local}
+  unfiltered:     {rule: unfiltered_mean}
+  majority:       {rule: majority}
+  coord_median:   {rule: coord_median}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

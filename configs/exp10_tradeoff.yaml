@@ -1,0 +1,30 @@
+name: exp10_tradeoff
+description: >
+  E10 matched false alarms. Every method also runs with an alarm threshold
+  tau on its own alarm score (rules.py): output 0 if score < tau, else
+  max(1, y). Accuracy, false alarms and delay as a function of tau, without
+  attack, under A1 and under the worst case AW (2 Byzantine cameras). AW
+  targets the normal output; the threshold is applied afterwards.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+loss: 0.0
+seeds: 50
+cases:
+  - {adversary: none, n_byz: 0}
+  - {adversary: A1, n_byz: 2}
+  - {adversary: AW, n_byz: 2}
+  - {adversary: AW, n_byz: 4}   # extra check, not in the paper
+sweep_threshold: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50,
+                  0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+methods:
+  local:          {rule: local}
+  unfiltered:     {rule: unfiltered_mean}
+  majority:       {rule: majority}
+  coord_median:   {rule: coord_median}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

@@ -1,0 +1,17 @@
+run,fold,train,val,epochs_run,best_epoch,early_stop,best_val_loss,temperature,epoch_seconds
+detector_base,0,2439,522,19,13,1,0.2077,0.946,589
+detector_base,1,2469,501,22,16,1,0.2048,1.061,697
+detector_base,2,2459,506,13,7,1,0.2217,0.873,404
+detector_base,3,2469,515,23,17,1,0.1898,0.904,705
+detector_base,4,2532,473,16,10,1,0.2369,0.964,506
+detector_no_fisheye,0,2439,522,19,13,1,0.1995,0.868,648
+detector_no_fisheye,1,2469,501,21,15,1,0.1912,0.969,773
+detector_no_fisheye,2,2459,506,12,6,1,0.2212,0.833,422
+detector_no_nuisance,0,2439,522,13,7,1,0.2289,0.92,243
+detector_no_nuisance,1,2469,501,18,12,1,0.2046,1.02,316
+detector_no_nuisance,2,2459,506,12,5,1,0.2112,0.857,207
+detector_sim2real,0,950,150,13,7,1,0.0811,0.2,232
+detector_sim2real,1,979,130,24,18,1,0.003,0.2,412
+detector_sim2real,2,971,133,9,3,1,0.0247,0.2,165
+detector_sim2real,3,980,143,17,11,1,0.0458,0.2,285
+detector_sim2real,4,1044,100,25,23,0,0.0152,0.2,427

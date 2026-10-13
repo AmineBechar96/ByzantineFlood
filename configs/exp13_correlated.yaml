@@ -1,0 +1,38 @@
+name: exp13_correlated
+description: >
+  E13 correlated detector errors (bflood.errors), on honest cameras, on top
+  of the belief bank: spatial patches (one shared error of +-1 level within
+  h hops, probability p per round), temporal stuck faults (probability q per
+  round, mean 5 rounds, the same wrong belief repeated) and an adverse
+  condition block (a fraction a of the rounds drawn from the adverse bank:
+  infrared night + rain + lens droplets at full strength). Normal outputs,
+  no thresholds; without attack and under AW with 2 Byzantine cameras.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+loss: 0.0
+seeds: 50
+settings:
+  - {name: independent, set: {}}
+  - {name: S_p0.1_h1, set: {errors: {type: spatial, p: 0.1, h: 1}}}
+  - {name: S_p0.1_h2, set: {errors: {type: spatial, p: 0.1, h: 2}}}
+  - {name: S_p0.3_h1, set: {errors: {type: spatial, p: 0.3, h: 1}}}
+  - {name: S_p0.3_h2, set: {errors: {type: spatial, p: 0.3, h: 2}}}
+  - {name: T_q0.05, set: {errors: {type: temporal, q: 0.05, mean: 5}}}
+  - {name: T_q0.10, set: {errors: {type: temporal, q: 0.10, mean: 5}}}
+  - {name: C_a0.25, set: {errors: {type: condition, a: 0.25, bank: detector_base, file: belief_bank_adverse.npz}}}
+  - {name: C_a0.5, set: {errors: {type: condition, a: 0.5, bank: detector_base, file: belief_bank_adverse.npz}}}
+cases:
+  - {adversary: none, n_byz: 0}
+  - {adversary: AW, n_byz: 2}
+methods:
+  local:          {rule: local}
+  unfiltered:     {rule: unfiltered_mean}
+  majority:       {rule: majority}
+  coord_median:   {rule: coord_median}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}
+  oracle:         {rule: oracle}

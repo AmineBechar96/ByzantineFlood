@@ -1,0 +1,601 @@
+file,camera,final_level,scene_changed,objects_changed,requested_level,confidence,label_source,sheet,panel,notes,ai_level
+data/grok/camera10_A_105_L1.jpg,10,1,0,0,1,high,ai_first_pass,sheet_036,A,puddles; stripes crisp,1
+data/grok/camera10_A_105_L2.jpg,10,2,0,0,2,high,ai_first_pass,sheet_036,B,"markings gone, red kerb visible",2
+data/grok/camera10_A_105_L3.jpg,10,2,0,1,3,low,ai_first_pass,sheet_036,D,"car added, red kerb visible",2
+data/grok/camera10_A_105_L4.jpg,10,3,1,0,4,low,ai_first_pass,sheet_036,C,"viewpoint changed, motorbike wheels mostly under",3
+data/grok/camera10_A_155_L1.jpg,10,1,0,0,1,high,ai_first_pass,sheet_050,B,puddles; stripes crisp,1
+data/grok/camera10_A_155_L2.jpg,10,2,0,0,2,low,median_ai_2raters,sheet_050,D,"partial flood; left markings dry, car wheels under",2
+data/grok/camera10_A_155_L3.jpg,10,3,0,0,3,low,ai_first_pass,sheet_050,C,"car wake, wheels mostly under, rider deep",3
+data/grok/camera10_A_155_L4.jpg,10,3,1,0,4,low,ai_first_pass,sheet_050,A,"bottom-left structures removed, car lower body under",3
+data/grok/camera10_A_205_L1.jpg,10,1,0,0,1,low,ai_first_pass,sheet_064,A,reflective standing water; markings crisp,1
+data/grok/camera10_A_205_L2.jpg,10,2,0,0,2,low,ai_first_pass,sheet_064,D,"markings gone, red kerb still visible",2
+data/grok/camera10_A_205_L3.jpg,10,3,0,0,3,low,ai_first_pass,sheet_064,C,"markings gone, car wakes, kerb under",3
+data/grok/camera10_A_205_L4.jpg,10,3,0,0,4,low,ai_first_pass,sheet_064,B,"markings gone, bottom sidewalk under",3
+data/grok/camera10_A_245_L1.jpg,10,0,0,0,1,low,ai_first_pass,sheet_078,B,wet shiny road; markings crisp,0
+data/grok/camera10_A_245_L2.jpg,10,2,0,0,2,low,ai_first_pass,sheet_078,D,"uneven partial sheet, markings gone",2
+data/grok/camera10_A_245_L3.jpg,10,1,0,0,3,low,ai_first_pass,sheet_078,C,markings faint but readable,1
+data/grok/camera10_A_245_L4.jpg,10,3,1,0,4,low,ai_first_pass,sheet_078,A,"car and waders added, foreground pole removed",3
+data/grok/camera10_A_295_L1.jpg,10,0,0,0,1,low,median_ai_2raters,sheet_092,B,wet shiny road; markings crisp,0
+data/grok/camera10_A_295_L2.jpg,10,2,0,0,2,low,ai_first_pass,sheet_092,C,"markings gone, kerb visible",2
+data/grok/camera10_A_295_L3.jpg,10,2,0,0,3,low,ai_first_pass,sheet_092,A,"markings gone, bottom kerb still visible",2
+data/grok/camera10_A_295_L4.jpg,10,3,0,1,4,low,ai_first_pass,sheet_092,D,"car added, water at sill",3
+data/grok/camera10_A_345_L1.jpg,10,0,0,0,1,low,median_ai_2raters,sheet_106,C,wet shiny road,0
+data/grok/camera10_A_345_L2.jpg,10,1,0,0,2,high,ai_first_pass,sheet_106,A,brown sheet; stripes readable,1
+data/grok/camera10_A_345_L3.jpg,10,2,0,0,3,high,ai_first_pass,sheet_106,B,stripes gone; cars with wakes at rims,2
+data/grok/camera10_A_345_L4.jpg,10,2,0,1,4,high,ai_first_pass,sheet_106,D,stripes gone; people added,2
+data/grok/camera10_A_395_L1.jpg,10,0,0,0,1,high,ai_first_pass,sheet_120,A,wet shiny; markings crisp,0
+data/grok/camera10_A_395_L2.jpg,10,2,0,0,2,low,ai_first_pass,sheet_120,D,markings mostly gone; rider wheels under,2
+data/grok/camera10_A_395_L3.jpg,10,2,1,0,3,low,ai_first_pass,sheet_120,B,viewpoint changed; rider and car added,2
+data/grok/camera10_A_395_L4.jpg,10,3,0,1,4,low,ai_first_pass,sheet_120,C,car added near window line; rider deep,3
+data/grok/camera10_A_445_L1.jpg,10,0,0,0,1,low,ai_first_pass,sheet_133,B,wet road; markings crisp,0
+data/grok/camera10_A_445_L2.jpg,10,2,0,0,2,high,ai_first_pass,sheet_133,A,markings gone; wheels lower part under,2
+data/grok/camera10_A_445_L3.jpg,10,3,1,0,3,low,ai_first_pass,sheet_133,D,sky/top area replaced; car wheels hidden,3
+data/grok/camera10_A_445_L4.jpg,10,1,0,0,4,high,ai_first_pass,sheet_133,C,brown sheet; stripes readable,1
+data/grok/camera10_A_495_L1.jpg,10,0,0,0,1,high,ai_first_pass,sheet_144,B,wet shiny; stripes crisp,0
+data/grok/camera10_A_495_L2.jpg,10,1,0,0,2,high,ai_first_pass,sheet_144,C,brown sheet; stripes readable,1
+data/grok/camera10_A_495_L3.jpg,10,2,1,0,3,low,ai_first_pass,sheet_144,A,all markings gone; bottom structure removed,2
+data/grok/camera10_A_495_L4.jpg,10,1,0,0,4,high,ai_first_pass,sheet_144,D,brown sheet; stripes readable,1
+data/grok/camera10_A_55_L1.jpg,10,0,0,0,1,low,ai_first_pass,sheet_022,A,slightly wet; markings crisp,0
+data/grok/camera10_A_55_L2.jpg,10,3,0,0,2,high,median_ai_2raters,sheet_022,C,"markings gone, kerb line still visible",2
+data/grok/camera10_A_55_L3.jpg,10,3,0,1,3,low,median_ai_2raters,sheet_022,D,"cars added, one near window line",3
+data/grok/camera10_A_55_L4.jpg,10,3,1,0,4,low,ai_first_pass,sheet_022,B,"different street/viewpoint, parked cars half under",3
+data/grok/camera10_A_5_L1.jpg,10,1,1,0,1,low,ai_first_pass,sheet_008,D,"viewpoint/crop changed, wet, stripes crisp",1
+data/grok/camera10_A_5_L2.jpg,10,2,0,0,2,low,ai_first_pass,sheet_008,C,"bus wheel bottoms under, kerb visible",2
+data/grok/camera10_A_5_L3.jpg,10,3,0,0,3,low,ai_first_pass,sheet_008,B,"bus wheels mostly under, motorbike deep",3
+data/grok/camera10_A_5_L4.jpg,10,3,1,0,4,low,ai_first_pass,sheet_008,A,"viewpoint changed, bus wheels mostly under",3
+data/grok/camera11_M_125_L1.jpg,11,1,0,0,1,low,ai_first_pass,sheet_037,C,puddles; markings crisp,1
+data/grok/camera11_M_125_L2.jpg,11,2,1,0,2,low,ai_first_pass,sheet_037,D,"kerb/bollard added, layout and viewpoint altered",2
+data/grok/camera11_M_125_L3.jpg,11,2,0,0,3,low,ai_first_pass,sheet_037,A,"markings gone, island top above, turbulent",2
+data/grok/camera11_M_125_L4.jpg,11,2,1,0,4,low,ai_first_pass,sheet_037,B,"island structure altered, markings faint",2
+data/grok/camera11_M_184_L1.jpg,11,0,0,0,1,low,ai_first_pass,sheet_051,B,wet shiny road; markings crisp,0
+data/grok/camera11_M_184_L2.jpg,11,3,0,0,2,low,ai_first_pass,sheet_051,C,"markings gone, cars sunk to sills",3
+data/grok/camera11_M_184_L3.jpg,11,2,0,0,3,low,ai_first_pass,sheet_051,D,"markings faint ghosts, car wheels under",2
+data/grok/camera11_M_184_L4.jpg,11,1,0,0,4,low,ai_first_pass,sheet_051,A,"brown sheet, dashed markings readable, lens glare removed",1
+data/grok/camera11_M_242_L1.jpg,11,0,0,0,1,low,ai_first_pass,sheet_065,B,wet shiny road; markings crisp,0
+data/grok/camera11_M_242_L2.jpg,11,3,0,0,2,low,ai_first_pass,sheet_065,C,"all markings gone, island edge under",3
+data/grok/camera11_M_242_L3.jpg,11,2,0,0,3,low,ai_first_pass,sheet_065,D,"faint marking ghosts, wake ripples",2
+data/grok/camera11_M_242_L4.jpg,11,3,0,1,4,low,ai_first_pass,sheet_065,A,"people added, one near waist-deep",3
+data/grok/camera11_M_301_L1.jpg,11,0,0,0,1,high,median_ai_2raters,sheet_079,A,wet shiny road; markings crisp,0
+data/grok/camera11_M_301_L2.jpg,11,3,1,0,2,low,ai_first_pass,sheet_079,D,"island submerged, yellow railing added",3
+data/grok/camera11_M_301_L3.jpg,11,2,0,0,3,low,ai_first_pass,sheet_079,C,"van wake, wheels half under",2
+data/grok/camera11_M_301_L4.jpg,11,3,1,0,4,low,ai_first_pass,sheet_079,B,"van moved, waders added, island replaced",3
+data/grok/camera11_M_360_L1.jpg,11,0,0,0,1,high,median_ai_2raters,sheet_093,B,wet shiny road; markings crisp,0
+data/grok/camera11_M_360_L2.jpg,11,2,0,0,2,low,ai_first_pass,sheet_093,D,"markings gone, bike wheels partly visible",2
+data/grok/camera11_M_360_L3.jpg,11,3,0,0,3,low,ai_first_pass,sheet_093,A,"island mostly submerged, wheels under",3
+data/grok/camera11_M_360_L4.jpg,11,2,0,0,4,low,ai_first_pass,sheet_093,C,"markings gone, island above water",2
+data/grok/camera11_M_419_L1.jpg,11,1,0,0,1,low,ai_first_pass,sheet_107,D,puddles; markings crisp,1
+data/grok/camera11_M_419_L2.jpg,11,2,0,1,2,low,ai_first_pass,sheet_107,C,markings faint; yellow bollard added,2
+data/grok/camera11_M_419_L3.jpg,11,2,0,1,3,high,ai_first_pass,sheet_107,B,markings gone; people wading added,2
+data/grok/camera11_M_419_L4.jpg,11,1,0,0,4,low,ai_first_pass,sheet_107,A,dashes readable; glare removed,1
+data/grok/camera11_M_66_L1.jpg,11,1,0,0,1,low,ai_first_pass,sheet_023,C,puddles; glare removed,1
+data/grok/camera11_M_66_L2.jpg,11,3,0,0,2,low,median_ai_2raters,sheet_023,B,"markings gone, car and bus wheels hidden",3
+data/grok/camera11_M_66_L3.jpg,11,2,0,1,3,low,ai_first_pass,sheet_023,D,"car moved with wake, markings ghosted",2
+data/grok/camera11_M_66_L4.jpg,11,3,0,1,4,low,median_ai_2raters,sheet_023,A,"vehicles added, markings readable",1
+data/grok/camera11_M_7_L1.jpg,11,1,0,0,1,low,ai_first_pass,sheet_009,C,wet shiny; markings crisp,1
+data/grok/camera11_M_7_L2.jpg,11,2,0,0,2,low,median_ai_2raters,sheet_009,A,"markings gone, island top above water",2
+data/grok/camera11_M_7_L3.jpg,11,2,0,0,3,low,ai_first_pass,sheet_009,D,markings faint ghosts; wake at island,2
+data/grok/camera11_M_7_L4.jpg,11,3,0,1,4,low,ai_first_pass,sheet_009,B,"waders added (waist-deep), car door-sill",3
+data/grok/camera12_A_0_L1.jpg,12,0,0,0,1,high,ai_first_pass,sheet_002,C,wet road only; markings crisp,0
+data/grok/camera12_A_0_L2.jpg,12,2,0,0,2,low,median_ai_2raters,sheet_002,A,"markings gone, median still above water",2
+data/grok/camera12_A_0_L3.jpg,12,3,0,0,3,low,ai_first_pass,sheet_002,D,raised median submerged; sidewalks flooded,3
+data/grok/camera12_A_0_L4.jpg,12,3,0,1,4,low,ai_first_pass,sheet_002,B,"bus replaced/moved, people and car added",3
+data/grok/camera12_A_10_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_044,C,wet with puddles; markings crisp,1
+data/grok/camera12_A_10_L2.jpg,12,2,0,0,2,high,ai_first_pass,sheet_044,A,"markings gone, median above water",2
+data/grok/camera12_A_10_L3.jpg,12,3,0,1,3,low,ai_first_pass,sheet_044,B,"cars added, sidewalk flooded to shopfronts",3
+data/grok/camera12_A_10_L4.jpg,12,2,0,1,4,low,ai_first_pass,sheet_044,D,"car added, stripes faint ghosts",2
+data/grok/camera12_A_13_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_058,A,wet patches; markings crisp,1
+data/grok/camera12_A_13_L2.jpg,12,1,0,0,2,high,ai_first_pass,sheet_058,C,markings readable through water,1
+data/grok/camera12_A_13_L3.jpg,12,3,0,1,3,low,ai_first_pass,sheet_058,B,"median removed, cars added",3
+data/grok/camera12_A_13_L4.jpg,12,3,1,0,4,low,ai_first_pass,sheet_058,D,"median gone, cars added",3
+data/grok/camera12_A_16_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_072,B,reflective puddles; markings crisp,1
+data/grok/camera12_A_16_L2.jpg,12,2,0,0,2,low,ai_first_pass,sheet_072,D,"markings gone, median above water",2
+data/grok/camera12_A_16_L3.jpg,12,2,0,0,3,low,ai_first_pass,sheet_072,C,"markings gone, sidewalks not fully under",2
+data/grok/camera12_A_16_L4.jpg,12,3,0,1,4,low,median_ai_2raters,sheet_072,A,"cars, bus, person added; cars to doors",3
+data/grok/camera12_A_19_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_086,D,reflective film; markings crisp,1
+data/grok/camera12_A_19_L2.jpg,12,2,0,0,2,low,ai_first_pass,sheet_086,C,"markings gone, median above water",2
+data/grok/camera12_A_19_L3.jpg,12,3,0,1,3,low,ai_first_pass,sheet_086,B,"markings gone, bus moved with wake",3
+data/grok/camera12_A_19_L4.jpg,12,2,0,1,4,low,ai_first_pass,sheet_086,A,"text visible, crosswalk ghosts; bus moved, car added",2
+data/grok/camera12_A_23_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_100,C,reflective puddles; markings crisp,1
+data/grok/camera12_A_23_L2.jpg,12,2,0,0,2,low,ai_first_pass,sheet_100,D,"markings gone, median above water",2
+data/grok/camera12_A_23_L3.jpg,12,2,0,0,3,low,ai_first_pass,sheet_100,A,"markings gone, median above water, bus wake",2
+data/grok/camera12_A_23_L4.jpg,12,2,0,1,4,low,ai_first_pass,sheet_100,B,"crosswalk ghosts, waders added",2
+data/grok/camera12_A_26_L1.jpg,12,0,0,1,1,low,ai_first_pass,sheet_114,A,wet patches only; bus moved,0
+data/grok/camera12_A_26_L2.jpg,12,2,0,0,2,high,ai_first_pass,sheet_114,B,markings gone; bus lower wheels under,2
+data/grok/camera12_A_26_L3.jpg,12,3,1,0,3,low,ai_first_pass,sheet_114,D,median submerged; car added with wake,3
+data/grok/camera12_A_26_L4.jpg,12,1,0,1,4,high,ai_first_pass,sheet_114,C,markings readable; bus replaced,1
+data/grok/camera12_A_29_L1.jpg,12,0,0,0,1,high,median_ai_2raters,sheet_127,D,wet sheen only,0
+data/grok/camera12_A_29_L2.jpg,12,2,0,0,2,low,ai_first_pass,sheet_127,A,markings gone; median above water,2
+data/grok/camera12_A_29_L3.jpg,12,3,0,1,3,low,ai_first_pass,sheet_127,B,median partly under; person added,3
+data/grok/camera12_A_29_L4.jpg,12,3,0,1,4,low,ai_first_pass,sheet_127,C,bus replaced; car to sill,3
+data/grok/camera12_A_3_L1.jpg,12,0,0,0,1,low,ai_first_pass,sheet_016,B,slightly wet; markings crisp,0
+data/grok/camera12_A_3_L2.jpg,12,2,0,0,2,high,ai_first_pass,sheet_016,A,"markings gone, median above water",2
+data/grok/camera12_A_3_L3.jpg,12,2,0,0,3,low,ai_first_pass,sheet_016,D,"markings gone, car wake, median above",2
+data/grok/camera12_A_3_L4.jpg,12,1,0,0,4,low,ai_first_pass,sheet_016,C,stripes readable through brown water,1
+data/grok/camera12_A_6_L1.jpg,12,1,0,0,1,low,ai_first_pass,sheet_030,A,puddles; markings crisp,1
+data/grok/camera12_A_6_L2.jpg,12,2,0,0,2,high,ai_first_pass,sheet_030,B,"stripes faint ghosts, median above water",2
+data/grok/camera12_A_6_L3.jpg,12,2,0,0,3,high,ai_first_pass,sheet_030,D,"markings gone, median above, car wake",2
+data/grok/camera12_A_6_L4.jpg,12,3,0,0,4,low,ai_first_pass,sheet_030,C,"median submerged, markings gone",3
+data/grok/camera13_A_163_L1.jpg,13,0,0,0,1,high,median_ai_2raters,sheet_038,B,puddles; markings crisp,1
+data/grok/camera13_A_163_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_038,A,"yellow line gone, far crosswalk visible",2
+data/grok/camera13_A_163_L3.jpg,13,2,0,0,3,low,ai_first_pass,sheet_038,D,"yellow line gone, turbulent, motorbikes in water",2
+data/grok/camera13_A_163_L4.jpg,13,1,0,0,4,high,ai_first_pass,sheet_038,C,yellow line and crosswalk readable,1
+data/grok/camera13_A_241_L1.jpg,13,1,0,1,1,high,ai_first_pass,sheet_052,D,reflective puddle; motorcyclist added on sign,1
+data/grok/camera13_A_241_L2.jpg,13,2,1,0,2,low,ai_first_pass,sheet_052,A,yellow line faint; white sign replaced by red roof,2
+data/grok/camera13_A_241_L3.jpg,13,2,0,0,3,low,ai_first_pass,sheet_052,B,crosswalk faint; centre line ghost,2
+data/grok/camera13_A_241_L4.jpg,13,3,0,1,4,low,median_ai_2raters,sheet_052,C,"cars and people added, cars half under",3
+data/grok/camera13_A_319_L1.jpg,13,1,0,0,1,high,ai_first_pass,sheet_066,B,dark puddles; markings crisp,1
+data/grok/camera13_A_319_L2.jpg,13,1,0,1,2,low,ai_first_pass,sheet_066,C,"van added, yellow line visible",1
+data/grok/camera13_A_319_L3.jpg,13,2,0,1,3,low,ai_first_pass,sheet_066,A,"van added, wheels half under",2
+data/grok/camera13_A_319_L4.jpg,13,2,0,1,4,low,ai_first_pass,sheet_066,D,van and waders added,2
+data/grok/camera13_A_382_L1.jpg,13,1,0,0,1,high,ai_first_pass,sheet_080,B,dark puddles; markings crisp,1
+data/grok/camera13_A_382_L2.jpg,13,1,0,0,2,low,ai_first_pass,sheet_080,A,yellow line and crosswalk readable,1
+data/grok/camera13_A_382_L3.jpg,13,2,0,1,3,low,ai_first_pass,sheet_080,C,"car added, wheels half under",2
+data/grok/camera13_A_382_L4.jpg,13,3,0,1,4,low,median_ai_2raters,sheet_080,D,"car added, wheels half under",2
+data/grok/camera13_A_460_L1.jpg,13,1,0,0,1,high,ai_first_pass,sheet_094,C,reflective puddles; markings crisp,1
+data/grok/camera13_A_460_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_094,A,"yellow line faint ghost, far crosswalk visible",2
+data/grok/camera13_A_460_L3.jpg,13,2,0,1,3,low,ai_first_pass,sheet_094,B,scooter and car added with wakes,2
+data/grok/camera13_A_460_L4.jpg,13,1,0,1,4,low,ai_first_pass,sheet_094,D,"markings readable, scooter added",1
+data/grok/camera13_A_538_L1.jpg,13,1,0,0,1,low,ai_first_pass,sheet_108,A,puddles at edges; markings crisp,1
+data/grok/camera13_A_538_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_108,C,centre line gone; top crosswalk visible,2
+data/grok/camera13_A_538_L3.jpg,13,2,0,0,3,high,ai_first_pass,sheet_108,B,markings gone; cars with wakes,2
+data/grok/camera13_A_538_L4.jpg,13,1,0,1,4,high,ai_first_pass,sheet_108,D,grey thin water; car and people added,1
+data/grok/camera13_A_616_L1.jpg,13,1,0,1,1,high,ai_first_pass,sheet_121,A,puddles; markings crisp; taxi added,1
+data/grok/camera13_A_616_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_121,D,centre line gone; top crosswalk faint,2
+data/grok/camera13_A_616_L3.jpg,13,2,0,0,3,high,ai_first_pass,sheet_121,B,markings gone; cars with wakes,2
+data/grok/camera13_A_616_L4.jpg,13,2,0,1,4,low,ai_first_pass,sheet_121,C,crosswalk readable; car added wheels partly under,2
+data/grok/camera13_A_694_L1.jpg,13,1,0,0,1,high,median_ai_2raters,sheet_134,A,puddles; markings crisp,1
+data/grok/camera13_A_694_L2.jpg,13,2,0,0,2,high,ai_first_pass,sheet_134,B,centre line and crosswalk gone,2
+data/grok/camera13_A_694_L3.jpg,13,2,0,0,3,low,ai_first_pass,sheet_134,D,crosswalk readable; person deep in water,2
+data/grok/camera13_A_694_L4.jpg,13,2,0,0,4,low,ai_first_pass,sheet_134,C,centre line gone; top crosswalk visible,2
+data/grok/camera13_A_772_L1.jpg,13,1,0,1,1,low,ai_first_pass,sheet_145,A,puddles; scooters removed,1
+data/grok/camera13_A_772_L2.jpg,13,1,0,0,2,low,ai_first_pass,sheet_145,D,thin sheet; crosswalk readable,1
+data/grok/camera13_A_772_L3.jpg,13,2,0,0,3,low,ai_first_pass,sheet_145,C,crosswalk readable; cars with wakes,2
+data/grok/camera13_A_772_L4.jpg,13,2,0,0,4,low,ai_first_pass,sheet_145,B,centre line faint; car wheels lower under,2
+data/grok/camera13_A_7_L1.jpg,13,1,0,0,1,low,ai_first_pass,sheet_010,D,wet with puddles; markings crisp,1
+data/grok/camera13_A_7_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_010,B,"opaque sheet, kerb line gone, far stripes visible",2
+data/grok/camera13_A_7_L3.jpg,13,2,0,1,3,low,ai_first_pass,sheet_010,C,"people added, van wake, wheels in water",2
+data/grok/camera13_A_7_L4.jpg,13,1,0,1,4,low,ai_first_pass,sheet_010,A,"people/scooter added, yellow line readable",1
+data/grok/camera13_A_85_L1.jpg,13,1,0,1,1,low,ai_first_pass,sheet_024,C,"car replaced/moved, puddles",1
+data/grok/camera13_A_85_L2.jpg,13,2,0,0,2,low,ai_first_pass,sheet_024,B,"far stripes visible, near markings gone",2
+data/grok/camera13_A_85_L3.jpg,13,2,0,1,3,low,ai_first_pass,sheet_024,D,"car replaced/moved, yellow line faint",2
+data/grok/camera13_A_85_L4.jpg,13,2,0,1,4,low,median_ai_2raters,sheet_024,A,"car replaced/moved, wheels partly in water",2
+data/grok/camera14_A_123_L1.jpg,14,1,0,0,1,low,ai_first_pass,sheet_039,C,small puddle; markings crisp,1
+data/grok/camera14_A_123_L2.jpg,14,2,0,0,2,high,ai_first_pass,sheet_039,A,"markings gone, red kerb visible",2
+data/grok/camera14_A_123_L3.jpg,14,1,0,1,3,low,ai_first_pass,sheet_039,D,"rider added, crosswalk readable",1
+data/grok/camera14_A_123_L4.jpg,14,3,0,1,4,low,median_ai_2raters,sheet_039,B,"people and car added, stripes faint",2
+data/grok/camera14_A_176_L1.jpg,14,1,0,0,1,high,ai_first_pass,sheet_053,C,small puddles; markings crisp,1
+data/grok/camera14_A_176_L2.jpg,14,2,0,0,2,low,ai_first_pass,sheet_053,A,"markings gone, red kerb still visible",2
+data/grok/camera14_A_176_L3.jpg,14,3,0,1,3,low,ai_first_pass,sheet_053,B,"car added half submerged, stripes ghosts",3
+data/grok/camera14_A_176_L4.jpg,14,3,0,1,4,low,ai_first_pass,sheet_053,D,"car, person, cart, pole added",3
+data/grok/camera14_A_226_L1.jpg,14,1,0,0,1,low,ai_first_pass,sheet_067,A,small puddles; markings crisp,1
+data/grok/camera14_A_226_L2.jpg,14,2,0,0,2,low,ai_first_pass,sheet_067,B,"markings gone, bus wheels lower half, kerb visible",2
+data/grok/camera14_A_226_L3.jpg,14,2,0,0,3,low,ai_first_pass,sheet_067,C,"bus wheels half under, wakes",2
+data/grok/camera14_A_226_L4.jpg,14,1,0,0,4,low,ai_first_pass,sheet_067,D,crosswalk readable through water,1
+data/grok/camera14_A_266_L1.jpg,14,1,0,0,1,low,ai_first_pass,sheet_081,D,small puddle by kerb; markings crisp,1
+data/grok/camera14_A_266_L2.jpg,14,2,0,0,2,low,ai_first_pass,sheet_081,A,"bottom crosswalk gone, far stripes faint, kerb visible",2
+data/grok/camera14_A_266_L3.jpg,14,2,0,1,3,low,ai_first_pass,sheet_081,C,"car added, wheels half under",2
+data/grok/camera14_A_266_L4.jpg,14,3,0,0,4,low,ai_first_pass,sheet_081,B,"kerb overtopped, scooter mostly under",3
+data/grok/camera14_A_319_L1.jpg,14,0,0,0,1,high,median_ai_2raters,sheet_095,C,near-identical to original,0
+data/grok/camera14_A_319_L2.jpg,14,2,0,0,2,low,ai_first_pass,sheet_095,D,"crosswalk mostly gone, kerb visible",2
+data/grok/camera14_A_319_L3.jpg,14,2,0,1,3,low,ai_first_pass,sheet_095,A,"crosswalk ghosts, car moved",2
+data/grok/camera14_A_319_L4.jpg,14,2,0,1,4,low,ai_first_pass,sheet_095,B,"crosswalk ghosts, scooter added",2
+data/grok/camera14_A_371_L1.jpg,14,1,0,0,1,high,ai_first_pass,sheet_109,D,puddles; markings crisp,1
+data/grok/camera14_A_371_L2.jpg,14,3,0,0,2,high,median_ai_2raters,sheet_109,A,markings gone; kerb reached,2
+data/grok/camera14_A_371_L3.jpg,14,2,0,1,3,high,ai_first_pass,sheet_109,B,car and scooter added; wading,2
+data/grok/camera14_A_371_L4.jpg,14,3,0,1,4,low,ai_first_pass,sheet_109,C,added car to door sill,3
+data/grok/camera14_A_421_L1.jpg,14,1,0,0,1,high,ai_first_pass,sheet_122,B,puddles; markings crisp,1
+data/grok/camera14_A_421_L2.jpg,14,2,0,0,2,high,ai_first_pass,sheet_122,A,markings gone; red kerb visible,2
+data/grok/camera14_A_421_L3.jpg,14,2,0,1,3,low,ai_first_pass,sheet_122,C,car added with wake; markings partly visible,2
+data/grok/camera14_A_421_L4.jpg,14,2,0,1,4,high,ai_first_pass,sheet_122,D,car and scooter added; wheels half under,2
+data/grok/camera14_A_471_L1.jpg,14,1,0,0,1,low,ai_first_pass,sheet_135,D,puddle; markings crisp,1
+data/grok/camera14_A_471_L2.jpg,14,2,0,0,2,high,ai_first_pass,sheet_135,B,markings gone; wheels lower half,2
+data/grok/camera14_A_471_L3.jpg,14,2,0,0,3,low,median_ai_2raters,sheet_135,C,stripes readable; car wake at wheels,2
+data/grok/camera14_A_471_L4.jpg,14,2,0,0,4,low,median_ai_2raters,sheet_135,A,crosswalk readable; tyres lower edge wet,1
+data/grok/camera14_A_4_L1.jpg,14,1,0,1,1,low,ai_first_pass,sheet_011,B,"car removed, puddles only",1
+data/grok/camera14_A_4_L2.jpg,14,2,0,0,2,low,ai_first_pass,sheet_011,A,"central pool, car wheels partly under",2
+data/grok/camera14_A_4_L3.jpg,14,3,0,1,3,low,ai_first_pass,sheet_011,D,"red kerb submerged, people added far",3
+data/grok/camera14_A_4_L4.jpg,14,2,0,0,4,low,median_ai_2raters,sheet_011,C,"stripes faint, car wheels partly under",2
+data/grok/camera14_A_521_L1.jpg,14,1,0,0,1,low,ai_first_pass,sheet_146,B,puddles; markings crisp,1
+data/grok/camera14_A_521_L2.jpg,14,1,0,0,2,high,ai_first_pass,sheet_146,D,brown sheet; crosswalk readable,1
+data/grok/camera14_A_521_L3.jpg,14,2,0,0,3,high,ai_first_pass,sheet_146,A,markings mostly gone; red kerb submerged,2
+data/grok/camera14_A_521_L4.jpg,14,2,0,1,4,high,ai_first_pass,sheet_146,C,car and people added; crosswalk ghosts,2
+data/grok/camera14_A_54_L1.jpg,14,1,0,0,1,high,ai_first_pass,sheet_025,A,puddles; stripes crisp,1
+data/grok/camera14_A_54_L2.jpg,14,2,0,1,2,low,median_ai_2raters,sheet_025,D,"far car moved, red kerb visible",2
+data/grok/camera14_A_54_L3.jpg,14,3,0,1,3,low,median_ai_2raters,sheet_025,B,"cars moved, people added, kerb submerged",3
+data/grok/camera14_A_54_L4.jpg,14,2,0,1,4,low,ai_first_pass,sheet_025,C,"car moved, person added, stripes faint",2
+data/grok/camera15_A_0_L1.jpg,15,0,0,0,1,low,median_ai_2raters,sheet_012,D,wet road; markings crisp,0
+data/grok/camera15_A_0_L2.jpg,15,2,0,0,2,low,ai_first_pass,sheet_012,C,"markings gone, sidewalk edge wet",2
+data/grok/camera15_A_0_L3.jpg,15,3,0,1,3,low,ai_first_pass,sheet_012,A,"red car added, sidewalk flooded to trees",3
+data/grok/camera15_A_0_L4.jpg,15,3,1,0,4,low,ai_first_pass,sheet_012,B,"median gone, sidewalk flooded, bottom vehicles gone",3
+data/grok/camera15_A_15_L1.jpg,15,1,0,0,1,low,ai_first_pass,sheet_040,D,puddles; markings crisp,1
+data/grok/camera15_A_15_L2.jpg,15,2,0,0,2,low,median_ai_2raters,sheet_040,C,"markings gone, median edge visible",2
+data/grok/camera15_A_15_L3.jpg,15,3,0,0,3,low,ai_first_pass,sheet_040,A,"markings gone, median and sidewalk flooded",3
+data/grok/camera15_A_15_L4.jpg,15,1,0,0,4,low,ai_first_pass,sheet_040,B,crosswalk and text readable through water,1
+data/grok/camera15_A_22_L1.jpg,15,0,0,1,1,low,median_ai_2raters,sheet_054,D,wet road; taxi and white car added,0
+data/grok/camera15_A_22_L2.jpg,15,3,0,0,2,low,ai_first_pass,sheet_054,C,"all markings gone, sidewalks under",3
+data/grok/camera15_A_22_L3.jpg,15,3,0,1,3,low,median_ai_2raters,sheet_054,B,"taxi added, water to building fronts",3
+data/grok/camera15_A_22_L4.jpg,15,3,0,1,4,low,ai_first_pass,sheet_054,A,"taxi and people added, scooter wheels under",3
+data/grok/camera15_A_29_L1.jpg,15,1,0,0,1,low,ai_first_pass,sheet_068,D,small puddles; markings crisp,1
+data/grok/camera15_A_29_L2.jpg,15,3,0,0,2,low,ai_first_pass,sheet_068,C,"markings gone, water to building fronts",3
+data/grok/camera15_A_29_L3.jpg,15,3,0,1,3,low,ai_first_pass,sheet_068,A,"markings gone, cars to sills, car recoloured",3
+data/grok/camera15_A_29_L4.jpg,15,2,0,1,4,low,ai_first_pass,sheet_068,B,"marking ghosts, car recoloured",2
+data/grok/camera15_A_35_L1.jpg,15,1,0,0,1,high,median_ai_2raters,sheet_082,C,near-identical to original,0
+data/grok/camera15_A_35_L2.jpg,15,2,0,0,2,low,median_ai_2raters,sheet_082,B,similar to A,3
+data/grok/camera15_A_35_L3.jpg,15,3,0,0,3,low,ai_first_pass,sheet_082,D,similar to A,3
+data/grok/camera15_A_35_L4.jpg,15,3,0,0,4,low,ai_first_pass,sheet_082,A,"markings gone, car wheels under, water to buildings",3
+data/grok/camera15_A_43_L1.jpg,15,1,0,0,1,low,ai_first_pass,sheet_096,B,dark puddles; markings crisp,1
+data/grok/camera15_A_43_L2.jpg,15,3,0,0,2,low,ai_first_pass,sheet_096,C,"markings gone, cars to sills",3
+data/grok/camera15_A_43_L3.jpg,15,3,0,0,3,low,median_ai_2raters,sheet_096,A,"markings gone, SUV to doors, turbulent",3
+data/grok/camera15_A_43_L4.jpg,15,1,0,0,4,high,ai_first_pass,sheet_096,D,markings readable through water,1
+data/grok/camera15_A_50_L1.jpg,15,0,0,0,1,high,ai_first_pass,sheet_110,C,wet sheen only,0
+data/grok/camera15_A_50_L2.jpg,15,2,0,0,2,high,ai_first_pass,sheet_110,D,markings gone,2
+data/grok/camera15_A_50_L3.jpg,15,2,0,0,3,high,ai_first_pass,sheet_110,A,markings gone; cars wheels partly under,2
+data/grok/camera15_A_50_L4.jpg,15,2,0,1,4,high,ai_first_pass,sheet_110,B,markings gone; red car moved,2
+data/grok/camera15_A_57_L1.jpg,15,1,0,0,1,low,median_ai_2raters,sheet_123,D,wet reflections; markings crisp,0
+data/grok/camera15_A_57_L2.jpg,15,2,0,0,2,low,ai_first_pass,sheet_123,C,markings gone; island submerged,2
+data/grok/camera15_A_57_L3.jpg,15,2,0,0,3,low,ai_first_pass,sheet_123,A,markings gone; island submerged; car wheels partly,2
+data/grok/camera15_A_57_L4.jpg,15,2,0,1,4,high,median_ai_2raters,sheet_123,B,markings gone; car added,2
+data/grok/camera15_A_64_L1.jpg,15,1,0,0,1,low,ai_first_pass,sheet_136,A,puddles; markings crisp,1
+data/grok/camera15_A_64_L2.jpg,15,1,0,0,2,high,ai_first_pass,sheet_136,C,brown sheet; crosswalk and text readable,1
+data/grok/camera15_A_64_L3.jpg,15,3,0,0,3,low,ai_first_pass,sheet_136,B,island and sidewalk under; car wheels hidden,3
+data/grok/camera15_A_64_L4.jpg,15,2,0,0,4,high,median_ai_2raters,sheet_136,D,markings gone; island submerged,2
+data/grok/camera15_A_72_L1.jpg,15,0,0,0,1,low,median_ai_2raters,sheet_147,A,wet shiny; markings crisp,0
+data/grok/camera15_A_72_L2.jpg,15,2,0,0,2,high,median_ai_2raters,sheet_147,D,markings gone; island submerged,2
+data/grok/camera15_A_72_L3.jpg,15,3,0,1,3,low,ai_first_pass,sheet_147,B,island and sidewalk under; parked scooters removed,3
+data/grok/camera15_A_72_L4.jpg,15,2,0,0,4,low,ai_first_pass,sheet_147,C,crosswalk and text faint ghosts,2
+data/grok/camera15_A_8_L1.jpg,15,0,0,0,1,high,median_ai_2raters,sheet_026,A,puddles; markings crisp,1
+data/grok/camera15_A_8_L2.jpg,15,2,0,0,2,low,median_ai_2raters,sheet_026,B,"markings gone, median top above water",2
+data/grok/camera15_A_8_L3.jpg,15,3,0,0,3,low,ai_first_pass,sheet_026,D,"median submerged, sidewalk trees in water",3
+data/grok/camera15_A_8_L4.jpg,15,2,0,0,4,high,median_ai_2raters,sheet_026,C,markings readable through water,1
+data/grok/camera16_A_0_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_013,B,puddles; markings crisp,1
+data/grok/camera16_A_0_L2.jpg,16,1,0,0,2,high,ai_first_pass,sheet_013,A,thin brown sheet; arrows/stripes readable,1
+data/grok/camera16_A_0_L3.jpg,16,2,0,0,3,low,ai_first_pass,sheet_013,C,"markings gone, island pavement above water",2
+data/grok/camera16_A_0_L4.jpg,16,3,0,1,4,low,ai_first_pass,sheet_013,D,"island submerged, cars added",3
+data/grok/camera16_A_10_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_041,D,puddles; markings crisp,1
+data/grok/camera16_A_10_L2.jpg,16,2,0,0,2,high,ai_first_pass,sheet_041,A,"markings gone, island above, wheels in water",2
+data/grok/camera16_A_10_L3.jpg,16,3,0,0,3,low,median_ai_2raters,sheet_041,C,"far stripes faint, car wakes",2
+data/grok/camera16_A_10_L4.jpg,16,1,0,0,4,high,ai_first_pass,sheet_041,B,stripes and arrows readable through water,1
+data/grok/camera16_A_15_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_055,C,puddles; markings crisp,1
+data/grok/camera16_A_15_L2.jpg,16,2,0,0,2,high,ai_first_pass,sheet_055,A,"arrows gone, island kerb above water",2
+data/grok/camera16_A_15_L3.jpg,16,3,0,0,3,low,median_ai_2raters,sheet_055,B,"island submerged, scooter wakes",3
+data/grok/camera16_A_15_L4.jpg,16,2,0,0,4,high,ai_first_pass,sheet_055,D,"arrows faint ghosts, wheels partly under",2
+data/grok/camera16_A_20_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_069,B,puddles; markings crisp,1
+data/grok/camera16_A_20_L2.jpg,16,2,0,0,2,low,ai_first_pass,sheet_069,C,"arrows gone, car wake",2
+data/grok/camera16_A_20_L3.jpg,16,1,0,0,3,high,ai_first_pass,sheet_069,D,markings readable through water,1
+data/grok/camera16_A_20_L4.jpg,16,2,0,0,4,low,ai_first_pass,sheet_069,A,"arrows gone, island kerb at waterline",2
+data/grok/camera16_A_24_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_083,A,reflective puddle; markings crisp,1
+data/grok/camera16_A_24_L2.jpg,16,1,0,0,2,high,ai_first_pass,sheet_083,B,markings readable through brown sheet,1
+data/grok/camera16_A_24_L3.jpg,16,2,0,0,3,low,ai_first_pass,sheet_083,C,"arrows faint, island kerb at waterline",2
+data/grok/camera16_A_24_L4.jpg,16,3,0,0,4,low,ai_first_pass,sheet_083,D,"island covered, arrows ghosts",3
+data/grok/camera16_A_29_L1.jpg,16,1,0,0,1,high,median_ai_2raters,sheet_097,C,puddles; markings crisp,1
+data/grok/camera16_A_29_L2.jpg,16,2,0,0,2,low,ai_first_pass,sheet_097,B,"all markings gone, island above water",2
+data/grok/camera16_A_29_L3.jpg,16,2,0,0,3,low,median_ai_2raters,sheet_097,A,"arrows faint ghosts, taxi wake",2
+data/grok/camera16_A_29_L4.jpg,16,1,0,1,4,high,ai_first_pass,sheet_097,D,"markings readable, person added",1
+data/grok/camera16_A_34_L1.jpg,16,0,0,0,1,low,median_ai_2raters,sheet_111,A,wet dark road; markings crisp,0
+data/grok/camera16_A_34_L2.jpg,16,1,0,0,2,high,ai_first_pass,sheet_111,C,brown sheet; markings readable,1
+data/grok/camera16_A_34_L3.jpg,16,2,0,0,3,low,ai_first_pass,sheet_111,D,markings gone; car wheels lower part under,2
+data/grok/camera16_A_34_L4.jpg,16,1,0,0,4,high,ai_first_pass,sheet_111,B,brown sheet; arrows and crosswalk readable,1
+data/grok/camera16_A_39_L1.jpg,16,0,0,0,1,high,ai_first_pass,sheet_124,A,near-identical to original,0
+data/grok/camera16_A_39_L2.jpg,16,1,0,0,2,high,ai_first_pass,sheet_124,B,brown sheet; arrow and crosswalk readable,1
+data/grok/camera16_A_39_L3.jpg,16,3,0,0,3,low,ai_first_pass,sheet_124,C,markings gone; island and plaza submerged,3
+data/grok/camera16_A_39_L4.jpg,16,1,0,0,4,high,median_ai_2raters,sheet_124,D,brown sheet; markings readable,1
+data/grok/camera16_A_44_L1.jpg,16,1,0,0,1,high,median_ai_2raters,sheet_137,A,puddle; markings crisp,1
+data/grok/camera16_A_44_L2.jpg,16,2,0,0,2,low,ai_first_pass,sheet_137,C,arrows gone; top crosswalk readable,2
+data/grok/camera16_A_44_L3.jpg,16,2,0,1,3,low,ai_first_pass,sheet_137,B,markings mostly gone; people added,2
+data/grok/camera16_A_44_L4.jpg,16,1,0,0,4,high,ai_first_pass,sheet_137,D,brown sheet; arrows readable,1
+data/grok/camera16_A_49_L1.jpg,16,1,0,0,1,low,ai_first_pass,sheet_148,D,puddles; markings crisp,1
+data/grok/camera16_A_49_L2.jpg,16,1,0,0,2,high,ai_first_pass,sheet_148,A,brown sheet; arrows and crosswalk readable,1
+data/grok/camera16_A_49_L3.jpg,16,3,0,0,3,low,ai_first_pass,sheet_148,B,island and plaza submerged,3
+data/grok/camera16_A_49_L4.jpg,16,2,1,0,4,low,ai_first_pass,sheet_148,C,arrows faint; island kerb gone; person added,2
+data/grok/camera16_A_5_L1.jpg,16,1,0,0,1,high,ai_first_pass,sheet_027,A,puddles; markings crisp,1
+data/grok/camera16_A_5_L2.jpg,16,2,0,0,2,low,ai_first_pass,sheet_027,B,"markings gone, island above water",2
+data/grok/camera16_A_5_L3.jpg,16,2,0,0,3,low,ai_first_pass,sheet_027,D,"arrows faint ghosts, car wake",2
+data/grok/camera16_A_5_L4.jpg,16,1,0,0,4,high,ai_first_pass,sheet_027,C,arrows/stripes readable through water,1
+data/grok/camera17_A_0_L1.jpg,17,0,0,0,1,high,ai_first_pass,sheet_003,B,wet shiny road only,0
+data/grok/camera17_A_0_L2.jpg,17,3,0,0,2,low,median_ai_2raters,sheet_003,C,"markings gone, island submerged, cars bases wet",2
+data/grok/camera17_A_0_L3.jpg,17,3,0,0,3,low,median_ai_2raters,sheet_003,A,"island submerged, turbulent, parked cars low parts under",3
+data/grok/camera17_A_0_L4.jpg,17,1,0,0,4,high,ai_first_pass,sheet_003,D,thin sheet; stripes readable,1
+data/grok/camera17_A_18_L1.jpg,17,1,0,0,1,low,ai_first_pass,sheet_031,B,puddles; markings crisp,1
+data/grok/camera17_A_18_L2.jpg,17,3,0,0,2,low,ai_first_pass,sheet_031,C,"island submerged, markings gone",3
+data/grok/camera17_A_18_L3.jpg,17,3,0,0,3,low,ai_first_pass,sheet_031,A,"island submerged, turbulent, cars low in water",3
+data/grok/camera17_A_18_L4.jpg,17,2,0,0,4,high,median_ai_2raters,sheet_031,D,markings readable through thin water,1
+data/grok/camera17_A_26_L1.jpg,17,1,0,0,1,low,ai_first_pass,sheet_045,D,puddles; markings crisp,1
+data/grok/camera17_A_26_L2.jpg,17,2,0,0,2,low,ai_first_pass,sheet_045,A,"markings faint ghosts, island submerged",2
+data/grok/camera17_A_26_L3.jpg,17,3,0,0,3,low,median_ai_2raters,sheet_045,B,"island submerged, red car side in water",3
+data/grok/camera17_A_26_L4.jpg,17,3,0,1,4,low,ai_first_pass,sheet_045,C,"cars rearranged, markings gone, island submerged",3
+data/grok/camera17_A_35_L1.jpg,17,1,0,0,1,low,ai_first_pass,sheet_059,D,puddles on wet road,1
+data/grok/camera17_A_35_L2.jpg,17,3,0,0,2,low,ai_first_pass,sheet_059,A,"markings gone, parked car wheels under",3
+data/grok/camera17_A_35_L3.jpg,17,3,0,1,3,low,ai_first_pass,sheet_059,B,cars added with wakes,3
+data/grok/camera17_A_35_L4.jpg,17,1,0,0,4,high,ai_first_pass,sheet_059,C,markings readable through water,1
+data/grok/camera17_A_42_L1.jpg,17,0,0,0,1,low,ai_first_pass,sheet_073,B,wet shiny road; markings crisp,0
+data/grok/camera17_A_42_L2.jpg,17,3,0,0,2,low,ai_first_pass,sheet_073,A,"markings gone, car wheels under, water to shops",3
+data/grok/camera17_A_42_L3.jpg,17,3,0,0,3,low,ai_first_pass,sheet_073,C,"markings gone, water to shopfronts",3
+data/grok/camera17_A_42_L4.jpg,17,3,0,0,4,low,ai_first_pass,sheet_073,D,similar to C,3
+data/grok/camera17_A_50_L1.jpg,17,0,0,0,1,low,ai_first_pass,sheet_087,D,wet road; markings crisp,0
+data/grok/camera17_A_50_L2.jpg,17,3,0,0,2,low,ai_first_pass,sheet_087,C,similar to B,3
+data/grok/camera17_A_50_L3.jpg,17,3,0,0,3,low,ai_first_pass,sheet_087,B,"markings gone, cars to sills",3
+data/grok/camera17_A_50_L4.jpg,17,3,0,1,4,low,ai_first_pass,sheet_087,A,"cars to sills, wader added",3
+data/grok/camera17_A_59_L1.jpg,17,1,0,0,1,low,median_ai_2raters,sheet_101,D,wet shiny road; markings crisp,0
+data/grok/camera17_A_59_L2.jpg,17,2,0,1,2,high,median_ai_2raters,sheet_101,B,markings gone; parked cars rearranged,2
+data/grok/camera17_A_59_L3.jpg,17,2,0,1,3,low,ai_first_pass,sheet_101,C,markings gone; cars added/moved,2
+data/grok/camera17_A_59_L4.jpg,17,1,0,1,4,low,ai_first_pass,sheet_101,A,brown sheet; stripes readable; lower car missing,1
+data/grok/camera17_A_67_L1.jpg,17,0,0,0,1,high,ai_first_pass,sheet_115,B,wet road only,0
+data/grok/camera17_A_67_L2.jpg,17,1,0,0,2,low,ai_first_pass,sheet_115,A,crosswalk readable but faded,1
+data/grok/camera17_A_67_L3.jpg,17,2,0,1,3,low,ai_first_pass,sheet_115,C,markings gone; vehicles moved,2
+data/grok/camera17_A_67_L4.jpg,17,2,0,1,4,high,median_ai_2raters,sheet_115,D,markings readable; car added; truck moved,1
+data/grok/camera17_A_76_L1.jpg,17,0,0,0,1,high,median_ai_2raters,sheet_128,B,wet shiny road,0
+data/grok/camera17_A_76_L2.jpg,17,2,0,0,2,high,ai_first_pass,sheet_128,C,markings gone,2
+data/grok/camera17_A_76_L3.jpg,17,2,0,1,3,high,ai_first_pass,sheet_128,A,markings gone; white car moved,2
+data/grok/camera17_A_76_L4.jpg,17,1,0,0,4,low,ai_first_pass,sheet_128,D,yellow text readable; crosswalk gone,1
+data/grok/camera17_A_85_L1.jpg,17,0,0,0,1,high,median_ai_2raters,sheet_140,B,wet road only,0
+data/grok/camera17_A_85_L2.jpg,17,2,0,0,2,high,ai_first_pass,sheet_140,D,markings gone; similar to A and C,2
+data/grok/camera17_A_85_L3.jpg,17,2,0,0,3,high,ai_first_pass,sheet_140,C,markings gone,2
+data/grok/camera17_A_85_L4.jpg,17,2,0,0,4,high,ai_first_pass,sheet_140,A,markings gone,2
+data/grok/camera17_A_9_L1.jpg,17,1,0,0,1,low,ai_first_pass,sheet_017,B,puddles; markings crisp,1
+data/grok/camera17_A_9_L2.jpg,17,2,0,0,2,low,ai_first_pass,sheet_017,A,"stripes faint ghosts, island submerged",2
+data/grok/camera17_A_9_L3.jpg,17,3,0,0,3,low,median_ai_2raters,sheet_017,C,"markings gone, cars lower body in water",3
+data/grok/camera17_A_9_L4.jpg,17,1,0,1,4,low,ai_first_pass,sheet_017,D,"car added on crosswalk, stripes readable",1
+data/grok/camera18_A_0_L1.jpg,18,0,0,0,1,high,median_ai_2raters,sheet_014,A,puddles; stripes crisp,1
+data/grok/camera18_A_0_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_014,B,"markings gone, car wheels partly under",2
+data/grok/camera18_A_0_L3.jpg,18,3,0,1,3,low,ai_first_pass,sheet_014,C,"car wheels mostly under, waders added",3
+data/grok/camera18_A_0_L4.jpg,18,3,0,0,4,low,ai_first_pass,sheet_014,D,"car lower body under, sidewalk submerged",3
+data/grok/camera18_A_12_L1.jpg,18,1,0,0,1,low,ai_first_pass,sheet_070,D,reflective puddles; markings crisp,1
+data/grok/camera18_A_12_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_070,B,"crosswalk gone, truck wheels under",2
+data/grok/camera18_A_12_L3.jpg,18,1,0,0,3,low,ai_first_pass,sheet_070,A,"crosswalk readable, truck wake",1
+data/grok/camera18_A_12_L4.jpg,18,1,0,0,4,low,ai_first_pass,sheet_070,C,crosswalk readable through water,1
+data/grok/camera18_A_15_L1.jpg,18,1,0,0,1,high,ai_first_pass,sheet_084,D,puddles; markings crisp,1
+data/grok/camera18_A_15_L2.jpg,18,1,0,0,2,high,ai_first_pass,sheet_084,B,crosswalk readable through water,1
+data/grok/camera18_A_15_L3.jpg,18,3,0,1,3,low,ai_first_pass,sheet_084,A,"markings gone, car wheels hidden, people added",3
+data/grok/camera18_A_15_L4.jpg,18,1,0,0,4,low,ai_first_pass,sheet_084,C,"crosswalk readable, box faint",1
+data/grok/camera18_A_17_L1.jpg,18,1,0,0,1,high,ai_first_pass,sheet_098,D,puddles; markings crisp,1
+data/grok/camera18_A_17_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_098,A,"crosswalk gone, car wheels lower half",2
+data/grok/camera18_A_17_L3.jpg,18,3,0,1,3,low,median_ai_2raters,sheet_098,B,"car wheels under, people added on flooded sidewalk",3
+data/grok/camera18_A_17_L4.jpg,18,3,0,1,4,low,ai_first_pass,sheet_098,C,"sidewalk flooded, waders added",3
+data/grok/camera18_A_20_L1.jpg,18,0,0,0,1,low,median_ai_2raters,sheet_112,A,reflective thin sheet; stripes crisp,1
+data/grok/camera18_A_20_L2.jpg,18,1,0,0,2,low,ai_first_pass,sheet_112,C,stripes readable; car spray at wheels,1
+data/grok/camera18_A_20_L3.jpg,18,2,0,1,3,high,ai_first_pass,sheet_112,D,stripes gone; people added; truck moved,2
+data/grok/camera18_A_20_L4.jpg,18,2,0,1,4,high,median_ai_2raters,sheet_112,B,stripes readable; person added,1
+data/grok/camera18_A_23_L1.jpg,18,1,0,0,1,high,median_ai_2raters,sheet_125,B,puddles; stripes crisp,1
+data/grok/camera18_A_23_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_125,C,crosswalk gone; car wheels lower under,2
+data/grok/camera18_A_23_L3.jpg,18,2,0,0,3,low,ai_first_pass,sheet_125,D,stripes partly readable; car spray at wheels,2
+data/grok/camera18_A_23_L4.jpg,18,1,0,1,4,high,ai_first_pass,sheet_125,A,stripes readable; people added,1
+data/grok/camera18_A_26_L1.jpg,18,1,0,0,1,high,ai_first_pass,sheet_138,B,puddles; stripes crisp,1
+data/grok/camera18_A_26_L2.jpg,18,2,0,0,2,high,median_ai_2raters,sheet_138,A,markings gone; truck lower wheels under,2
+data/grok/camera18_A_26_L3.jpg,18,2,0,1,3,low,ai_first_pass,sheet_138,D,stripes readable; truck wake; person added,2
+data/grok/camera18_A_26_L4.jpg,18,3,0,1,4,low,ai_first_pass,sheet_138,C,vehicles moved/enlarged; car to sill,3
+data/grok/camera18_A_29_L1.jpg,18,1,0,0,1,low,ai_first_pass,sheet_149,C,thin reflective sheet; stripes crisp,1
+data/grok/camera18_A_29_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_149,B,markings gone; truck lower wheels under,2
+data/grok/camera18_A_29_L3.jpg,18,2,0,0,3,low,ai_first_pass,sheet_149,D,markings gone; truck wake; sidewalk edge wet,2
+data/grok/camera18_A_29_L4.jpg,18,2,0,1,4,low,ai_first_pass,sheet_149,A,truck replaced by van; wheels mostly hidden,2
+data/grok/camera18_A_32_L1.jpg,18,1,0,0,1,low,median_ai_2raters,sheet_150,B,puddles; stripes crisp,1
+data/grok/camera18_A_32_L2.jpg,18,2,0,0,2,high,median_ai_2raters,sheet_150,D,brown sheet; stripes readable,1
+data/grok/camera18_A_32_L3.jpg,18,2,0,0,3,low,ai_first_pass,sheet_150,C,stripes faded; car wake at lower wheels,2
+data/grok/camera18_A_32_L4.jpg,18,2,0,1,4,low,median_ai_2raters,sheet_150,A,truck replaced by van mid-road; stripes readable,2
+data/grok/camera18_A_3_L1.jpg,18,1,0,0,1,high,ai_first_pass,sheet_028,B,puddles; stripes crisp,1
+data/grok/camera18_A_3_L2.jpg,18,2,0,0,2,low,ai_first_pass,sheet_028,D,"stripes gone, red kerb visible",2
+data/grok/camera18_A_3_L3.jpg,18,3,0,0,3,low,ai_first_pass,sheet_028,C,"car wheels mostly under, sidewalk flooded",3
+data/grok/camera18_A_3_L4.jpg,18,3,0,1,4,low,median_ai_2raters,sheet_028,A,"person added, car lower body under",3
+data/grok/camera18_A_6_L1.jpg,18,0,0,0,1,high,median_ai_2raters,sheet_042,D,puddles; stripes crisp,1
+data/grok/camera18_A_6_L2.jpg,18,3,0,0,2,high,median_ai_2raters,sheet_042,C,brown sheet; stripes readable,1
+data/grok/camera18_A_6_L3.jpg,18,3,0,1,3,low,ai_first_pass,sheet_042,B,"people added, sidewalk/sign submerged, stripes gone",3
+data/grok/camera18_A_6_L4.jpg,18,2,0,1,4,low,ai_first_pass,sheet_042,A,"person added, stripes visible but sidewalk flooded",2
+data/grok/camera18_A_9_L1.jpg,18,1,0,0,1,high,ai_first_pass,sheet_056,D,puddles; markings crisp,1
+data/grok/camera18_A_9_L2.jpg,18,2,0,0,2,high,ai_first_pass,sheet_056,B,"markings gone, truck wheels lower half",2
+data/grok/camera18_A_9_L3.jpg,18,3,0,1,3,low,ai_first_pass,sheet_056,A,"truck wheels mostly under, people added",3
+data/grok/camera18_A_9_L4.jpg,18,2,0,0,4,low,ai_first_pass,sheet_056,C,"dashes visible, crosswalk ghosts",2
+data/grok/camera3_A_119_L1.jpg,3,1,0,0,1,high,ai_first_pass,sheet_046,C,puddles; stripes crisp,1
+data/grok/camera3_A_119_L2.jpg,3,2,0,0,2,high,ai_first_pass,sheet_046,B,"stripes gone, red kerb visible",2
+data/grok/camera3_A_119_L3.jpg,3,2,0,0,3,high,ai_first_pass,sheet_046,D,"stripes gone, car wheels half under",2
+data/grok/camera3_A_119_L4.jpg,3,1,0,0,4,low,ai_first_pass,sheet_046,A,stripes readable; cars wheels partly wet,1
+data/grok/camera3_A_166_L1.jpg,3,1,0,0,1,low,median_ai_2raters,sheet_060,B,wet shiny road,0
+data/grok/camera3_A_166_L2.jpg,3,3,0,0,2,low,ai_first_pass,sheet_060,A,"markings gone, SUV wheels hidden",3
+data/grok/camera3_A_166_L3.jpg,3,3,0,0,3,low,ai_first_pass,sheet_060,D,"markings gone, SUV wheels hidden",3
+data/grok/camera3_A_166_L4.jpg,3,2,0,0,4,low,ai_first_pass,sheet_060,C,"crosswalk ghosts, SUV wheels half under",2
+data/grok/camera3_A_198_L1.jpg,3,1,0,0,1,low,ai_first_pass,sheet_074,B,puddles; markings crisp,1
+data/grok/camera3_A_198_L2.jpg,3,2,0,0,2,low,ai_first_pass,sheet_074,C,"markings gone, similar to A",2
+data/grok/camera3_A_198_L3.jpg,3,2,0,0,3,low,ai_first_pass,sheet_074,D,"markings gone, wake; similar to A",2
+data/grok/camera3_A_198_L4.jpg,3,2,0,0,4,low,ai_first_pass,sheet_074,A,"markings gone, kerb line overtopped",2
+data/grok/camera3_A_230_L1.jpg,3,0,0,0,1,low,median_ai_2raters,sheet_088,C,wet shiny road,0
+data/grok/camera3_A_230_L2.jpg,3,3,0,0,2,low,ai_first_pass,sheet_088,D,"markings gone, left sidewalk flooded",3
+data/grok/camera3_A_230_L3.jpg,3,3,0,1,3,low,ai_first_pass,sheet_088,A,"scooter added, car to sills, kerb under",3
+data/grok/camera3_A_230_L4.jpg,3,3,0,0,4,low,median_ai_2raters,sheet_088,B,"markings gone, car to sills",3
+data/grok/camera3_A_280_L1.jpg,3,1,0,0,1,high,ai_first_pass,sheet_102,D,puddles; markings crisp,1
+data/grok/camera3_A_280_L2.jpg,3,2,0,0,2,high,ai_first_pass,sheet_102,B,markings gone; kerb reached,2
+data/grok/camera3_A_280_L3.jpg,3,2,0,1,3,low,ai_first_pass,sheet_102,A,markings gone; car bow wave; riders removed,2
+data/grok/camera3_A_280_L4.jpg,3,1,0,0,4,high,ai_first_pass,sheet_102,C,brown water; crosswalk readable,1
+data/grok/camera3_A_312_L1.jpg,3,1,0,1,1,low,ai_first_pass,sheet_116,C,puddles; markings crisp; riders removed,1
+data/grok/camera3_A_312_L2.jpg,3,2,0,0,2,high,ai_first_pass,sheet_116,D,markings gone; wheels partly under,2
+data/grok/camera3_A_312_L3.jpg,3,3,0,1,3,low,ai_first_pass,sheet_116,B,sidewalk flooded; riders removed,3
+data/grok/camera3_A_312_L4.jpg,3,2,0,0,4,low,ai_first_pass,sheet_116,A,markings gone; car wheels mostly hidden,2
+data/grok/camera3_A_360_L1.jpg,3,1,0,0,1,low,ai_first_pass,sheet_129,D,thin reflective sheet; markings crisp,1
+data/grok/camera3_A_360_L2.jpg,3,2,0,1,2,high,ai_first_pass,sheet_129,B,markings gone; blue truck removed,2
+data/grok/camera3_A_360_L3.jpg,3,2,0,0,3,low,ai_first_pass,sheet_129,A,crosswalk faint ghost; scooter wakes,2
+data/grok/camera3_A_360_L4.jpg,3,3,0,1,4,low,ai_first_pass,sheet_129,C,truck replaced by van to windows,3
+data/grok/camera3_A_392_L1.jpg,3,1,0,0,1,high,ai_first_pass,sheet_141,D,puddles; markings crisp,1
+data/grok/camera3_A_392_L2.jpg,3,2,0,0,2,high,ai_first_pass,sheet_141,C,markings gone,2
+data/grok/camera3_A_392_L3.jpg,3,2,0,0,3,high,ai_first_pass,sheet_141,A,markings gone; car wake at lower wheels,2
+data/grok/camera3_A_392_L4.jpg,3,3,0,0,4,low,median_ai_2raters,sheet_141,B,crosswalk faint ghosts,2
+data/grok/camera3_A_39_L1.jpg,3,1,0,0,1,high,ai_first_pass,sheet_018,D,puddles; stripes crisp,1
+data/grok/camera3_A_39_L2.jpg,3,2,0,0,2,high,ai_first_pass,sheet_018,B,"stripes gone, car wheels hidden",2
+data/grok/camera3_A_39_L3.jpg,3,2,0,0,3,low,ai_first_pass,sheet_018,C,"stripes gone, wake, sidewalk edge wet",2
+data/grok/camera3_A_39_L4.jpg,3,3,0,0,4,high,median_ai_2raters,sheet_018,A,thin water; stripes readable,1
+data/grok/camera3_A_7_L1.jpg,3,1,0,0,1,low,median_ai_2raters,sheet_004,A,puddles; markings crisp,1
+data/grok/camera3_A_7_L2.jpg,3,2,0,0,2,low,ai_first_pass,sheet_004,C,"markings gone, motorbike wheels under",2
+data/grok/camera3_A_7_L3.jpg,3,2,0,1,3,low,median_ai_2raters,sheet_004,D,"white car added, markings gone",2
+data/grok/camera3_A_7_L4.jpg,3,3,0,1,4,low,median_ai_2raters,sheet_004,B,"white car added, stripes faint",2
+data/grok/camera3_A_87_L1.jpg,3,0,0,0,1,high,median_ai_2raters,sheet_032,C,puddles; stripes crisp,1
+data/grok/camera3_A_87_L2.jpg,3,2,0,0,2,low,ai_first_pass,sheet_032,D,"stripes gone, left sidewalk dry",2
+data/grok/camera3_A_87_L3.jpg,3,2,0,0,3,high,median_ai_2raters,sheet_032,B,"stripes faint ghosts, scooters in water",2
+data/grok/camera3_A_87_L4.jpg,3,1,0,0,4,low,ai_first_pass,sheet_032,A,crosswalk readable; center dashes faint,1
+data/grok/camera5_A_105_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_089,A,near-identical to original,0
+data/grok/camera5_A_105_L2.jpg,5,3,0,0,2,low,ai_first_pass,sheet_089,B,"all markings gone, sidewalks covered",3
+data/grok/camera5_A_105_L3.jpg,5,3,0,0,3,low,median_ai_2raters,sheet_089,D,"all markings gone, car wake",3
+data/grok/camera5_A_105_L4.jpg,5,2,0,0,4,low,ai_first_pass,sheet_089,C,"crosswalk faint ghosts, kerb faint",2
+data/grok/camera5_A_123_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_103,A,near-identical to original,0
+data/grok/camera5_A_123_L2.jpg,5,1,0,0,2,low,median_ai_2raters,sheet_103,D,markings gone but very shallow sheet,1
+data/grok/camera5_A_123_L3.jpg,5,2,0,1,3,high,ai_first_pass,sheet_103,B,markings gone; people added,2
+data/grok/camera5_A_123_L4.jpg,5,2,0,0,4,low,ai_first_pass,sheet_103,C,markings gone; car lower wheels wet,2
+data/grok/camera5_A_141_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_117,C,near-identical to original,0
+data/grok/camera5_A_141_L2.jpg,5,1,0,0,2,high,ai_first_pass,sheet_117,D,thin sheet; crosswalks readable,1
+data/grok/camera5_A_141_L3.jpg,5,2,0,0,3,low,ai_first_pass,sheet_117,A,markings gone; looks shallow,2
+data/grok/camera5_A_141_L4.jpg,5,2,0,1,4,high,ai_first_pass,sheet_117,B,markings gone; people added,2
+data/grok/camera5_A_159_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_130,C,near-identical to original,0
+data/grok/camera5_A_159_L2.jpg,5,1,0,0,2,high,ai_first_pass,sheet_130,B,brown sheet; crosswalks readable,1
+data/grok/camera5_A_159_L3.jpg,5,2,0,0,3,low,median_ai_2raters,sheet_130,A,markings gone; looks shallow,2
+data/grok/camera5_A_159_L4.jpg,5,2,0,0,4,high,ai_first_pass,sheet_130,D,markings gone; scooter wheels under,2
+data/grok/camera5_A_177_L1.jpg,5,0,0,0,1,high,ai_first_pass,sheet_142,D,near-identical to original,0
+data/grok/camera5_A_177_L2.jpg,5,2,0,0,2,low,ai_first_pass,sheet_142,A,markings gone; looks shallow,2
+data/grok/camera5_A_177_L3.jpg,5,2,0,1,3,high,ai_first_pass,sheet_142,C,markings gone; scooter added,2
+data/grok/camera5_A_177_L4.jpg,5,3,0,1,4,low,ai_first_pass,sheet_142,B,cars lower half under; person added,3
+data/grok/camera5_A_19_L1.jpg,5,0,0,0,1,low,ai_first_pass,sheet_019,B,wet shiny; markings crisp,0
+data/grok/camera5_A_19_L2.jpg,5,2,0,0,2,low,ai_first_pass,sheet_019,D,markings gone; parked cars wheels in water,2
+data/grok/camera5_A_19_L3.jpg,5,3,0,1,3,low,ai_first_pass,sheet_019,A,"waders added deep, markings gone",3
+data/grok/camera5_A_19_L4.jpg,5,1,0,1,4,low,ai_first_pass,sheet_019,C,"car and motorcyclist added, stripes readable",1
+data/grok/camera5_A_1_L1.jpg,5,0,0,0,1,high,ai_first_pass,sheet_005,A,near-identical to original,0
+data/grok/camera5_A_1_L2.jpg,5,2,0,0,2,low,ai_first_pass,sheet_005,D,markings gone; no vehicle cue,2
+data/grok/camera5_A_1_L3.jpg,5,2,0,1,3,low,ai_first_pass,sheet_005,B,"motorcyclist added, stripes faint ghosts",2
+data/grok/camera5_A_1_L4.jpg,5,2,0,1,4,low,ai_first_pass,sheet_005,C,"person and car added, markings gone",2
+data/grok/camera5_A_37_L1.jpg,5,0,0,0,1,high,ai_first_pass,sheet_033,C,near-identical; slightly wet,0
+data/grok/camera5_A_37_L2.jpg,5,2,0,0,2,high,ai_first_pass,sheet_033,B,"stripes gone, red kerb line faint",2
+data/grok/camera5_A_37_L3.jpg,5,1,0,0,3,low,ai_first_pass,sheet_033,A,stripes faint but readable,1
+data/grok/camera5_A_37_L4.jpg,5,3,0,1,4,low,ai_first_pass,sheet_033,D,"waders added, tree base sidewalk submerged",3
+data/grok/camera5_A_55_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_047,B,near-identical to original,0
+data/grok/camera5_A_55_L2.jpg,5,2,0,0,2,low,ai_first_pass,sheet_047,D,"markings gone, car wheels in water",2
+data/grok/camera5_A_55_L3.jpg,5,2,0,0,3,low,ai_first_pass,sheet_047,C,"markings gone, car wheels partly under",2
+data/grok/camera5_A_55_L4.jpg,5,1,0,1,4,low,ai_first_pass,sheet_047,A,"people added, stripes readable",1
+data/grok/camera5_A_73_L1.jpg,5,0,0,0,1,high,median_ai_2raters,sheet_061,C,near-identical to original,0
+data/grok/camera5_A_73_L2.jpg,5,3,0,0,2,low,median_ai_2raters,sheet_061,D,"markings gone, SUV wheels mostly under",3
+data/grok/camera5_A_73_L3.jpg,5,3,0,0,3,low,ai_first_pass,sheet_061,B,"markings gone, SUV wheels hidden, wake",3
+data/grok/camera5_A_73_L4.jpg,5,3,0,1,4,low,ai_first_pass,sheet_061,A,"cars and people added, cars to doors",3
+data/grok/camera5_A_87_L1.jpg,5,0,0,0,1,high,ai_first_pass,sheet_075,B,near-identical to original,0
+data/grok/camera5_A_87_L2.jpg,5,3,0,0,2,low,median_ai_2raters,sheet_075,A,"all markings gone, sidewalks flooded",3
+data/grok/camera5_A_87_L3.jpg,5,3,0,0,3,low,ai_first_pass,sheet_075,D,"all markings gone, wake",3
+data/grok/camera5_A_87_L4.jpg,5,2,0,1,4,low,ai_first_pass,sheet_075,C,"crosswalk faint, person added",2
+data/grok/camera6_A_0_L1.jpg,6,0,0,0,1,high,median_ai_2raters,sheet_006,D,puddle patch; markings crisp,1
+data/grok/camera6_A_0_L2.jpg,6,2,0,1,2,low,ai_first_pass,sheet_006,B,"markings gone, distant car added",2
+data/grok/camera6_A_0_L3.jpg,6,3,0,1,3,low,ai_first_pass,sheet_006,C,"car added mid-road, water near door sill",3
+data/grok/camera6_A_0_L4.jpg,6,2,0,1,4,low,ai_first_pass,sheet_006,A,"car and person added, markings faint",2
+data/grok/camera6_A_14_L1.jpg,6,1,0,0,1,high,ai_first_pass,sheet_048,C,puddles; markings crisp,1
+data/grok/camera6_A_14_L2.jpg,6,3,0,0,2,low,ai_first_pass,sheet_048,A,"median submerged, sidewalk edge above",3
+data/grok/camera6_A_14_L3.jpg,6,3,0,1,3,low,ai_first_pass,sheet_048,D,"car added with wake, median submerged",3
+data/grok/camera6_A_14_L4.jpg,6,3,0,1,4,low,ai_first_pass,sheet_048,B,"cars added, water at lower doors",3
+data/grok/camera6_A_19_L1.jpg,6,1,0,0,1,low,ai_first_pass,sheet_062,B,single puddle; mostly dry,1
+data/grok/camera6_A_19_L2.jpg,6,3,0,0,2,low,ai_first_pass,sheet_062,A,"markings gone, sidewalk flooded, car wheels under",3
+data/grok/camera6_A_19_L3.jpg,6,3,0,0,3,low,median_ai_2raters,sheet_062,C,"median planter submerged, cars with wakes",3
+data/grok/camera6_A_19_L4.jpg,6,3,0,0,4,low,ai_first_pass,sheet_062,D,"markings gone, median visible, wheels under",3
+data/grok/camera6_A_23_L1.jpg,6,0,0,0,1,high,ai_first_pass,sheet_076,B,near-identical to original,0
+data/grok/camera6_A_23_L2.jpg,6,3,0,0,2,low,median_ai_2raters,sheet_076,A,"median planter submerged, right sidewalk dry",3
+data/grok/camera6_A_23_L3.jpg,6,4,0,0,3,low,median_ai_2raters,sheet_076,D,"markings gone, median above water",2
+data/grok/camera6_A_23_L4.jpg,6,4,0,1,4,low,median_ai_2raters,sheet_076,C,"cars added, sunk to windows",4
+data/grok/camera6_A_28_L1.jpg,6,0,0,0,1,high,ai_first_pass,sheet_090,B,near-identical to original,0
+data/grok/camera6_A_28_L2.jpg,6,2,0,0,2,low,ai_first_pass,sheet_090,D,"markings gone, median and sidewalk above water",2
+data/grok/camera6_A_28_L3.jpg,6,3,0,0,3,low,ai_first_pass,sheet_090,C,"median and sidewalks under, cars to doors",3
+data/grok/camera6_A_28_L4.jpg,6,3,0,1,4,low,ai_first_pass,sheet_090,A,"red car moved, wader; median submerged",3
+data/grok/camera6_A_33_L1.jpg,6,1,0,0,1,high,ai_first_pass,sheet_104,B,puddles; markings readable,1
+data/grok/camera6_A_33_L2.jpg,6,2,1,0,2,low,ai_first_pass,sheet_104,D,markings gone; median vanished; sidewalk dry,2
+data/grok/camera6_A_33_L3.jpg,6,3,0,1,3,low,ai_first_pass,sheet_104,A,median submerged; rider with wake added,3
+data/grok/camera6_A_33_L4.jpg,6,2,0,1,4,low,ai_first_pass,sheet_104,C,markings gone; car and pedestrian added,2
+data/grok/camera6_A_37_L1.jpg,6,1,0,0,1,high,ai_first_pass,sheet_118,B,puddles; markings crisp,1
+data/grok/camera6_A_37_L2.jpg,6,2,0,0,2,high,ai_first_pass,sheet_118,C,markings faint ghosts; median above water,2
+data/grok/camera6_A_37_L3.jpg,6,3,0,1,3,low,ai_first_pass,sheet_118,A,median and sidewalk under; riders added,3
+data/grok/camera6_A_37_L4.jpg,6,2,1,0,4,low,ai_first_pass,sheet_118,D,truck and car added; median removed,2
+data/grok/camera6_A_42_L1.jpg,6,1,0,0,1,high,ai_first_pass,sheet_131,A,puddles; markings crisp,1
+data/grok/camera6_A_42_L2.jpg,6,2,0,0,2,high,ai_first_pass,sheet_131,C,markings faint ghosts; median above water,2
+data/grok/camera6_A_42_L3.jpg,6,3,1,0,3,low,ai_first_pass,sheet_131,D,median and sidewalks under; median removed,3
+data/grok/camera6_A_42_L4.jpg,6,3,0,1,4,low,ai_first_pass,sheet_131,B,median and sidewalk under; car added,3
+data/grok/camera6_A_5_L1.jpg,6,1,0,0,1,low,ai_first_pass,sheet_020,A,puddles; markings crisp,1
+data/grok/camera6_A_5_L2.jpg,6,1,0,0,2,high,median_ai_2raters,sheet_020,B,markings readable through water,1
+data/grok/camera6_A_5_L3.jpg,6,3,0,1,3,low,ai_first_pass,sheet_020,C,"median and sidewalk submerged, people added",3
+data/grok/camera6_A_5_L4.jpg,6,3,0,1,4,low,median_ai_2raters,sheet_020,D,"median and sidewalk submerged, riders added",3
+data/grok/camera6_A_9_L1.jpg,6,0,0,0,1,low,median_ai_2raters,sheet_034,B,wet sheen; markings crisp,0
+data/grok/camera6_A_9_L2.jpg,6,2,0,0,2,low,ai_first_pass,sheet_034,C,"lines faint ghosts, median above",2
+data/grok/camera6_A_9_L3.jpg,6,2,0,1,3,low,ai_first_pass,sheet_034,D,"car added with wake, markings gone",2
+data/grok/camera6_A_9_L4.jpg,6,2,0,1,4,low,ai_first_pass,sheet_034,A,"car and people added mid-road, markings mostly gone",2
+data/grok/camera8_A_114_L1.jpg,8,1,0,0,1,high,ai_first_pass,sheet_029,B,puddles; stripes crisp,1
+data/grok/camera8_A_114_L2.jpg,8,1,0,0,2,high,ai_first_pass,sheet_029,D,stripes readable; sidewalk dry,1
+data/grok/camera8_A_114_L3.jpg,8,3,0,1,3,low,ai_first_pass,sheet_029,A,"taxi moved/enlarged, sidewalk submerged",3
+data/grok/camera8_A_114_L4.jpg,8,3,0,1,4,low,ai_first_pass,sheet_029,C,"taxi moved, people added, sidewalk submerged",3
+data/grok/camera8_A_168_L1.jpg,8,1,0,0,1,high,ai_first_pass,sheet_043,A,puddles; stripes crisp,1
+data/grok/camera8_A_168_L2.jpg,8,2,0,0,2,high,median_ai_2raters,sheet_043,B,"stripes gone, kerb visible, sidewalk dry",2
+data/grok/camera8_A_168_L3.jpg,8,3,0,1,3,low,median_ai_2raters,sheet_043,D,"taxi moved, sidewalk submerged",3
+data/grok/camera8_A_168_L4.jpg,8,3,0,1,4,low,ai_first_pass,sheet_043,C,"cars and people added, sidewalk submerged",3
+data/grok/camera8_A_222_L1.jpg,8,1,0,0,1,high,median_ai_2raters,sheet_057,D,puddles; stripes crisp,1
+data/grok/camera8_A_222_L2.jpg,8,2,0,0,2,high,ai_first_pass,sheet_057,A,"crosswalk gone, kerb not overtopped",2
+data/grok/camera8_A_222_L3.jpg,8,3,0,0,3,low,median_ai_2raters,sheet_057,C,sidewalk and kerb submerged,3
+data/grok/camera8_A_222_L4.jpg,8,3,1,0,4,low,ai_first_pass,sheet_057,B,"sidewalk under; pole added, foreground pole removed",3
+data/grok/camera8_A_269_L1.jpg,8,1,0,0,1,low,ai_first_pass,sheet_071,D,puddles; stripes crisp,1
+data/grok/camera8_A_269_L2.jpg,8,1,0,0,2,high,ai_first_pass,sheet_071,B,crosswalk readable through water; kerb dry,1
+data/grok/camera8_A_269_L3.jpg,8,3,0,1,3,low,ai_first_pass,sheet_071,C,"car and wader added, sidewalk under",3
+data/grok/camera8_A_269_L4.jpg,8,4,0,1,4,low,median_ai_2raters,sheet_071,A,"sidewalk under, cars added, pedestrian in water",3
+data/grok/camera8_A_323_L1.jpg,8,1,0,0,1,low,ai_first_pass,sheet_085,A,reflective standing water; stripes crisp,1
+data/grok/camera8_A_323_L2.jpg,8,1,0,0,2,high,ai_first_pass,sheet_085,C,stripes readable through water,1
+data/grok/camera8_A_323_L3.jpg,8,3,0,0,3,low,ai_first_pass,sheet_085,D,"sidewalk under, truck wheels hidden",3
+data/grok/camera8_A_323_L4.jpg,8,3,0,0,4,low,ai_first_pass,sheet_085,B,"sidewalk under, truck wheels hidden",3
+data/grok/camera8_A_376_L1.jpg,8,1,0,0,1,low,ai_first_pass,sheet_099,B,puddle; markings crisp,1
+data/grok/camera8_A_376_L2.jpg,8,2,0,0,2,high,ai_first_pass,sheet_099,A,"crosswalk gone, kerb visible, sidewalk dry",2
+data/grok/camera8_A_376_L3.jpg,8,3,0,0,3,low,ai_first_pass,sheet_099,D,"sidewalk under, car wake",3
+data/grok/camera8_A_376_L4.jpg,8,3,1,0,4,low,ai_first_pass,sheet_099,C,sidewalk under; foreground pole removed,3
+data/grok/camera8_A_430_L1.jpg,8,1,0,0,1,high,ai_first_pass,sheet_113,B,puddles; stripes crisp,1
+data/grok/camera8_A_430_L2.jpg,8,2,0,0,2,high,ai_first_pass,sheet_113,D,markings gone; sidewalk above water,2
+data/grok/camera8_A_430_L3.jpg,8,3,0,0,3,low,ai_first_pass,sheet_113,C,sidewalk under; scooter wheels hidden,3
+data/grok/camera8_A_430_L4.jpg,8,3,1,0,4,low,ai_first_pass,sheet_113,A,sidewalk under; bus low; pole removed,3
+data/grok/camera8_A_484_L1.jpg,8,1,0,0,1,high,ai_first_pass,sheet_126,C,puddles; stripes crisp,1
+data/grok/camera8_A_484_L2.jpg,8,1,0,0,2,high,ai_first_pass,sheet_126,B,brown sheet; stripes readable,1
+data/grok/camera8_A_484_L3.jpg,8,3,0,1,3,low,ai_first_pass,sheet_126,A,sidewalk under; rider moved; person wading,3
+data/grok/camera8_A_484_L4.jpg,8,3,1,0,4,low,ai_first_pass,sheet_126,D,sidewalk under; pole base removed,3
+data/grok/camera8_A_545_L1.jpg,8,0,0,0,1,low,median_ai_2raters,sheet_139,A,puddle; stripes crisp,1
+data/grok/camera8_A_545_L2.jpg,8,2,0,0,2,high,ai_first_pass,sheet_139,B,markings gone; sidewalk above water,2
+data/grok/camera8_A_545_L3.jpg,8,3,0,0,3,low,ai_first_pass,sheet_139,C,sidewalk under; people wading,3
+data/grok/camera8_A_545_L4.jpg,8,2,0,0,4,low,median_ai_2raters,sheet_139,D,stripes faint ghosts; sidewalk wet,2
+data/grok/camera8_A_59_L1.jpg,8,1,0,0,1,high,ai_first_pass,sheet_015,D,puddles; stripes crisp,1
+data/grok/camera8_A_59_L2.jpg,8,2,0,0,2,high,ai_first_pass,sheet_015,C,"stripes gone, kerb still visible",2
+data/grok/camera8_A_59_L3.jpg,8,3,0,0,3,low,median_ai_2raters,sheet_015,B,"stripes gone, sidewalk and kerb submerged",3
+data/grok/camera8_A_59_L4.jpg,8,1,0,1,4,low,ai_first_pass,sheet_015,A,"car and scooter added, stripes readable",1
+data/grok/camera8_A_5_L1.jpg,8,1,0,0,1,high,median_ai_2raters,sheet_001,D,wet road thin water; stripes crisp,1
+data/grok/camera8_A_5_L2.jpg,8,1,0,0,2,high,median_ai_2raters,sheet_001,C,brown sheet; stripes readable,1
+data/grok/camera8_A_5_L3.jpg,8,2,0,0,3,low,ai_first_pass,sheet_001,A,"stripes faint ghosts, water at lower bus wheels",2
+data/grok/camera8_A_5_L4.jpg,8,2,0,0,4,high,ai_first_pass,sheet_001,B,"stripes gone, sidewalk edge flooded",2
+data/grok/camera9_A_137_L1.jpg,9,1,0,0,1,high,ai_first_pass,sheet_049,A,puddles; stripes crisp,1
+data/grok/camera9_A_137_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_049,C,"stripes gone, verge above water",2
+data/grok/camera9_A_137_L3.jpg,9,3,0,0,3,low,median_ai_2raters,sheet_049,D,"verge and kerb furniture submerged, wake",3
+data/grok/camera9_A_137_L4.jpg,9,3,0,1,4,low,ai_first_pass,sheet_049,B,"person added, verge submerged, stripes ghosts",3
+data/grok/camera9_A_181_L1.jpg,9,1,0,0,1,high,ai_first_pass,sheet_063,C,puddles; markings crisp,1
+data/grok/camera9_A_181_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_063,A,"crosswalk gone, planter above water",2
+data/grok/camera9_A_181_L3.jpg,9,3,0,0,3,low,ai_first_pass,sheet_063,B,"sidewalk flooded, scooter wading",3
+data/grok/camera9_A_181_L4.jpg,9,3,0,0,4,low,ai_first_pass,sheet_063,D,"planter submerged, reddish water",3
+data/grok/camera9_A_216_L1.jpg,9,0,0,0,1,low,median_ai_2raters,sheet_077,D,puddles; markings crisp,1
+data/grok/camera9_A_216_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_077,B,"crosswalk gone, edge line visible",2
+data/grok/camera9_A_216_L3.jpg,9,4,0,1,3,low,median_ai_2raters,sheet_077,C,"car added, only roof visible",4
+data/grok/camera9_A_216_L4.jpg,9,4,0,1,4,low,median_ai_2raters,sheet_077,A,"car added, scooters mostly under, planter gone",3
+data/grok/camera9_A_260_L1.jpg,9,1,0,0,1,low,ai_first_pass,sheet_091,A,reflective standing water; markings crisp,1
+data/grok/camera9_A_260_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_091,D,"crosswalk gone, edge line and planter visible",2
+data/grok/camera9_A_260_L3.jpg,9,3,0,0,3,low,median_ai_2raters,sheet_091,B,"planter and edge line submerged, wader",3
+data/grok/camera9_A_260_L4.jpg,9,4,0,1,4,low,median_ai_2raters,sheet_091,C,"waders added near waist-deep, planter gone",4
+data/grok/camera9_A_304_L1.jpg,9,1,0,0,1,low,ai_first_pass,sheet_105,A,puddles; stripes crisp,1
+data/grok/camera9_A_304_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_105,B,stripes gone; kerb reached,2
+data/grok/camera9_A_304_L3.jpg,9,3,0,0,3,low,ai_first_pass,sheet_105,C,planter strip submerged; people wading,3
+data/grok/camera9_A_304_L4.jpg,9,3,0,1,4,low,ai_first_pass,sheet_105,D,planter submerged; scooters added at left,3
+data/grok/camera9_A_349_L1.jpg,9,0,0,0,1,low,ai_first_pass,sheet_119,B,wet reflections only,0
+data/grok/camera9_A_349_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_119,A,markings gone; planter kerb above water,2
+data/grok/camera9_A_349_L3.jpg,9,3,0,1,3,low,ai_first_pass,sheet_119,C,planter submerged; car added,3
+data/grok/camera9_A_349_L4.jpg,9,3,0,1,4,low,median_ai_2raters,sheet_119,D,car added deep; scooters half under,3
+data/grok/camera9_A_393_L1.jpg,9,0,0,0,1,high,ai_first_pass,sheet_132,A,wet shiny; markings crisp,0
+data/grok/camera9_A_393_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_132,C,markings gone; planter above water,2
+data/grok/camera9_A_393_L3.jpg,9,3,0,0,3,low,ai_first_pass,sheet_132,B,planter and sidewalk under; car wheels hidden,3
+data/grok/camera9_A_393_L4.jpg,9,3,0,0,4,low,ai_first_pass,sheet_132,D,planter submerged; car wheels mostly under,3
+data/grok/camera9_A_437_L1.jpg,9,0,0,0,1,high,ai_first_pass,sheet_143,B,wet shiny road,0
+data/grok/camera9_A_437_L2.jpg,9,2,0,0,2,low,ai_first_pass,sheet_143,A,crosswalk faint ghosts; planter dry,2
+data/grok/camera9_A_437_L3.jpg,9,2,0,1,3,low,ai_first_pass,sheet_143,D,car added water at hubs; planter under,2
+data/grok/camera9_A_437_L4.jpg,9,3,0,1,4,low,ai_first_pass,sheet_143,C,added car deep; added people shallow; inconsistent,3
+data/grok/camera9_A_48_L1.jpg,9,1,0,0,1,high,ai_first_pass,sheet_021,B,puddles; stripes crisp,1
+data/grok/camera9_A_48_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_021,D,"stripes gone, verge above water",2
+data/grok/camera9_A_48_L3.jpg,9,3,0,1,3,low,ai_first_pass,sheet_021,A,"verge submerged, waders added",3
+data/grok/camera9_A_48_L4.jpg,9,3,0,1,4,low,median_ai_2raters,sheet_021,C,"verge submerged, riders/person added",3
+data/grok/camera9_A_4_L1.jpg,9,1,0,0,1,low,ai_first_pass,sheet_007,C,wet with puddles; stripes crisp,1
+data/grok/camera9_A_4_L2.jpg,9,2,0,0,2,high,median_ai_2raters,sheet_007,A,"stripes gone, people shin-deep, verge dry",2
+data/grok/camera9_A_4_L3.jpg,9,3,0,0,3,low,ai_first_pass,sheet_007,B,"verge submerged, people knee-deep",3
+data/grok/camera9_A_4_L4.jpg,9,3,0,0,4,low,ai_first_pass,sheet_007,D,"verge submerged, people knee-deep",3
+data/grok/camera9_A_92_L1.jpg,9,0,0,0,1,high,median_ai_2raters,sheet_035,A,puddles; stripes crisp,1
+data/grok/camera9_A_92_L2.jpg,9,2,0,0,2,high,ai_first_pass,sheet_035,B,"stripes gone, verge and kerb line above",2
+data/grok/camera9_A_92_L3.jpg,9,4,0,1,3,low,median_ai_2raters,sheet_035,D,"verge submerged, waders added",3
+data/grok/camera9_A_92_L4.jpg,9,2,0,1,4,low,ai_first_pass,sheet_035,C,"car and waders added, verge above",2

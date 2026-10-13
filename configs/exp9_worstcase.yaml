@@ -1,0 +1,25 @@
+name: exp9_worstcase
+description: >
+  E9 worst-case adversary AW (exp1_main setting). For every honest camera,
+  round and method separately, the Byzantine neighbours send the messages
+  from C (full confidence at each level, low confidence at each level,
+  silence) that maximise the error of the output of the camera, knowing the
+  rule, the truth and the honest messages (bflood.sim.aw_search). Exact for
+  stateless rules; a lower bound on the damage for bf_v1 (stateful).
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+loss: 0.0
+seeds: 50
+n_byz: [0, 1, 2, 3, 4, 5, 6]
+adversaries: [AW]
+methods:
+  unfiltered:     {rule: unfiltered_mean}
+  majority:       {rule: majority}
+  coord_median:   {rule: coord_median}
+  wmsr_F1:        {rule: wmsr, F: 1}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v1:          {rule: bf_v1}
+  bf_v2:          {rule: bf_v2}

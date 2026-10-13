@@ -1,0 +1,42 @@
+# ARCHIVED v1 prompts (pilot, 3 Oct 2026): night infrared frames stayed a wet road at all levels.
+
+# Prompts for Grok flood editing of FishEye8K training frames.
+# Depth bands follow paper Table II. The prompt level is only a REQUEST:
+# every output is labelled afterwards by what is visible (see
+# data/grok/labels_template.csv), and outputs that change the scene are
+# discarded. Grok images are training data only.
+
+preamble: >-
+  Edit this photo from a fixed fisheye traffic camera mounted about 6 metres
+  above a road intersection. Keep everything exactly as it is: the same camera
+  position and angle, the same circular fisheye distortion and black border,
+  the same buildings, road layout, road markings, vehicles, people, shadows,
+  lighting and time of day, and any timestamp text. Do not add or remove any
+  vehicle, person or object, and do not add rain. The only change is
+  realistic, slightly muddy floodwater standing on the ground, as described
+  below. The water surface is flat and reflects the surroundings.
+
+levels:
+  1: >-
+    Shallow water, about 1 to 10 cm deep: puddles and a thin sheet of standing
+    water in the low parts of the road and along the kerbs. Most road markings
+    remain visible through or around the water. Car tyres are not submerged
+    and the tops of kerbs stay dry.
+  2: >-
+    Water about 10 to 21 cm deep covering the whole road surface. Road markings
+    are hidden under the water. The water reaches the lower part of car tyres,
+    below the wheel hubs. Kerbs are partly submerged; pavements are still dry.
+  3: >-
+    Water about 21 to 43 cm deep covering the road and the pavements. Kerbs are
+    fully under water. On cars the water reaches the wheel hubs or higher but
+    stays below the door sills. Small ripples and wakes around wheels.
+  4: >-
+    Deep water, more than 43 cm: the road and pavements are completely under
+    water. Water is above the door sills of cars, which are partly submerged;
+    motorbikes are submerged up to the seat.
+
+time_of_day:
+  night: >-
+    This is a black-and-white infrared night image: keep it monochrome
+    infrared, with street lights reflected on the water.
+  default: ""

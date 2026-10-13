@@ -1,0 +1,26 @@
+name: exp8_degree
+description: >
+  E8 neighbour count (answers v1 reviewer R2.d: why 4 neighbours and not a
+  complete graph?). 18-camera layout with each camera linked to its k
+  nearest cameras, k = 2, 3, 4, 6, 8, 12 and 17 (17 = complete graph).
+  Far cameras see a different water level, so more links is not better for
+  per-location estimates; trim_auto adapts F to the degree. The flood and
+  the attacker placement are fixed on the 4-NN physical layout
+  (scenario.reference_k) so only the communication links change.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8, reference_k: 4}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+sweep:
+  - {key: graph.k, values: [2, 3, 4, 6, 8, 12, 17]}
+n_byz: [0, 2, 4, 6]
+adversaries: [A1, A2]
+methods:
+  local:          {rule: local}
+  unfiltered:     {rule: unfiltered_mean}
+  wmsr_F2:        {rule: wmsr, F: 2}
+  bf_v2:          {rule: bf_v2}
+  bf_v2_auto:     {rule: bf_v2, trim: auto}
+  oracle:         {rule: oracle}

@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+
+# Datasets and images are never committed (see README, Data)
+data/*.zip
+data/grok/
+*.jpg
+*.jpeg
+*.png
+
+# Detector checkpoints and per-fold outputs of a retraining
+*.pt
+results/detector_*/fold[0-9]*
+results/detector_*/train.log
+
+# Quick and placeholder runs; make_figures output
+results/*_quick/
+results/*_placeholder/
+out/

@@ -1,0 +1,18 @@
+# Sim-to-real gap: train on synthetic flooded (Grok) + real dry fisheye only; test on real.
+name: detector_sim2real
+sources: [grok, fisheye8k]
+folds: 5
+epochs: 25
+batch_size: 32
+size: 384
+lr_backbone: 1.0e-4
+lr_head: 1.0e-3
+weight_decay: 1.0e-4
+patience: 6
+num_workers: 8
+seed: 0
+augment: {p_fisheye: 0.7, nuisance: true}
+fisheye_test: true
+# Validation (early stopping, temperature) also gets the Grok images of the held-out
+# cameras: the real pool has no flooded image. Training parts are unchanged.
+val_synthetic: true

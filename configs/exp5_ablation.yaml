@@ -1,0 +1,27 @@
+name: exp5_ablation
+description: >
+  E5 ablation of ByzantineFlood v2: remove one component at a time
+  (confidence weights, trimming), add back the v1-style distance filter and
+  trust (Hellinger or symmetric KL), vary own weight alpha.
+graph: {type: testbed, k: 4}
+rounds: 20
+scenario: {epicenter: center, t0: 3, speed: 1.0, growth: 0.8}
+detector: {type: belief_bank, bank: detector_base}
+faults: {placement: bfs, n_crash: 0}
+seeds: 30
+n_byz: [0, 2, 4, 6]
+adversaries: [A1, A2, A4, A8]
+methods:
+  bf_v2:          {rule: bf_v2}
+  with_filter:    {rule: bf_v2, use_filter: true}
+  with_filter_trust: {rule: bf_v2, use_filter: true, use_trust: true}
+  no_conf:        {rule: bf_v2, use_conf: false}
+  trim0:          {rule: bf_v2, trim: 0}
+  trim1:          {rule: bf_v2, trim: 1}
+  trim_auto:      {rule: bf_v2, trim: auto}
+  alpha1:         {rule: bf_v2, alpha: 1.0}
+  alpha3:         {rule: bf_v2, alpha: 3.0}
+  symkl_filter_trust: {rule: bf_v2, use_filter: true, use_trust: true, distance: sym_kl}
+  mixture:        {rule: bf_v2, output: mixture}
+  oracle:         {rule: oracle}
+  oracle_mix:     {rule: oracle, output: mixture}

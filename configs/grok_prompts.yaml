@@ -1,0 +1,43 @@
+# Prompts v2 for Grok flood editing of FishEye8K training frames (daytime only).
+# v1 (configs/grok_prompts_v1.yaml) produced only a wet road at every level:
+# the long "keep everything identical" preamble made Grok change as little as
+# possible, and night infrared frames cannot show depth. v2 states the water
+# first, names the cues that must disappear, and keeps the constraints short.
+# Depth bands follow paper Table II. The prompt level is only a REQUEST:
+# every output is labelled afterwards by what is visible
+# (data/grok_labels_template.csv); outputs that change the scene are discarded.
+
+preamble: ""
+
+levels:
+  1: >-
+    Add shallow puddles of rainwater, a few centimetres deep, on this road:
+    along the kerbs and in the low parts of the intersection. Most of the
+    asphalt stays visible, all road markings and zebra crossings remain clearly
+    visible, and car tyres are not in water.
+  2: >-
+    Flood the whole road surface with a continuous sheet of muddy brown water
+    about 15 cm deep. The asphalt is no longer visible anywhere on the road and
+    every road marking and zebra crossing is hidden under the water. The water
+    reaches the bottom of car tyres. The pavements beside the road stay dry.
+  3: >-
+    Flood the whole scene with opaque muddy brown water about 35 cm deep,
+    covering the road and the pavements. No asphalt, road marking, zebra
+    crossing or kerb is visible anywhere. Car wheels are almost completely under
+    water, up to just below the doors, and people stand in water up to their
+    knees. Show ripples and wakes around vehicles.
+  4: >-
+    Flood the whole scene with deep, opaque muddy brown water about 60 cm deep,
+    covering the road and pavements completely. Cars are submerged above their
+    door sills so only the upper body, windows and roof show; motorbikes are
+    under water up to the seat; people are in water up to the waist. No ground
+    surface is visible anywhere.
+
+constraints: >-
+  Keep the same fisheye camera view, the circular black border, the buildings
+  and the same vehicles and people in the same places (they may be partly under
+  water). Do not add or remove any vehicle or person. The water is the only
+  change, and it must be large and clearly visible.
+
+time_of_day:
+  default: ""

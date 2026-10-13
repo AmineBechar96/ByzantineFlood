@@ -1,0 +1,21 @@
+run,ensemble,true_level,pred_0,pred_1,pred_2,pred_3,pred_4,n,recall
+detector_base,5 folds,0,5,0,4,1,1,11,0.45454545454545453
+detector_base,5 folds,1,1,5,19,6,2,33,0.15151515151515152
+detector_base,5 folds,2,0,5,40,22,4,71,0.5633802816901409
+detector_base,5 folds,3,0,4,16,15,15,50,0.3
+detector_base,5 folds,4,0,1,4,19,63,87,0.7241379310344828
+detector_base,folds 0-2,0,4,1,4,1,1,11,0.36363636363636365
+detector_base,folds 0-2,1,1,6,19,4,3,33,0.18181818181818182
+detector_base,folds 0-2,2,0,9,35,22,5,71,0.49295774647887325
+detector_base,folds 0-2,3,0,4,17,17,12,50,0.34
+detector_base,folds 0-2,4,0,2,5,19,61,87,0.7011494252873564
+detector_sim2real_dryval,5 folds,0,0,4,7,0,0,11,0.0
+detector_sim2real_dryval,5 folds,1,0,5,25,3,0,33,0.15151515151515152
+detector_sim2real_dryval,5 folds,2,0,3,54,14,0,71,0.7605633802816901
+detector_sim2real_dryval,5 folds,3,0,4,38,8,0,50,0.16
+detector_sim2real_dryval,5 folds,4,1,10,68,8,0,87,0.0
+detector_sim2real,5 folds,0,0,4,7,0,0,11,0.0
+detector_sim2real,5 folds,1,0,3,24,6,0,33,0.09090909090909091
+detector_sim2real,5 folds,2,0,4,54,13,0,71,0.7605633802816901
+detector_sim2real,5 folds,3,0,4,37,9,0,50,0.18
+detector_sim2real,5 folds,4,1,9,72,5,0,87,0.0

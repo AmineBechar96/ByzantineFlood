@@ -1,0 +1,16 @@
+# Ablation: no nuisance augmentations (night, rain, glare, droplets, ...).
+name: detector_no_nuisance
+sources: [deepflood, alleyfloodnet, fisheye8k, grok]
+folds: 5
+run_folds: 3  # budget: folds 0-2 of the same 5-fold split as detector_base
+epochs: 25
+batch_size: 32
+size: 384
+lr_backbone: 1.0e-4
+lr_head: 1.0e-3
+weight_decay: 1.0e-4
+patience: 6
+num_workers: 8
+seed: 0
+augment: {p_fisheye: 0.7, nuisance: false}
+fisheye_test: true

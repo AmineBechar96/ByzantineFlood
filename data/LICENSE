@@ -1,0 +1,20 @@
+Data annotations of ByzantineFlood
+==================================
+
+The annotations in this repository are licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Covered: the labels, splits and annotator ratings in data/ (data/processed/*.csv,
+data/grok_labels.csv, data/grok_base_frames.csv, data/human_check/*.csv,
+data/testbed/cameras.json), and the belief banks and experiment results in
+results/.
+
+Not covered:
+- Images. No image is included. Each dataset (DeepFlood, STURM-FloodDepth,
+  AlleyFloodNet, FishEye8K) is available from its authors under its own licence.
+- File names and image IDs, which belong to those datasets.
+- data/train.txt, data/val.txt and data/test.txt, the official split lists of
+  STURM-FloodDepth (CC BY 4.0, Zenodo doi:10.5281/zenodo.14833532).
+
+The code is under the MIT licence (../LICENSE).

@@ -1,0 +1,17 @@
+a,b,test_set,metric,diff,ci_lo,ci_hi,n
+detector_sim2real (5 folds),detector_base (5 folds),deepflood_test,acc,-0.246031746031746,-0.32539682539682535,-0.17063492063492064,252
+detector_sim2real (5 folds),detector_base (5 folds),deepflood_test,mae,0.5515873015873016,0.40873015873015883,0.6904761904761905,252
+detector_sim2real (5 folds),detector_base (5 folds),deepflood_test_fisheye,acc,-0.22619047619047616,-0.3055555555555556,-0.1468253968253968,252
+detector_sim2real (5 folds),detector_base (5 folds),deepflood_test_fisheye,mae,0.6071428571428571,0.4563492063492064,0.7539682539682538,252
+detector_sim2real (5 folds),detector_base (5 folds),sturm_test,flooded_auc,-0.22074662285505653,-0.2799822057680203,-0.15861354998269003,337
+detector_sim2real (5 folds),detector_base (5 folds),alley_test,flooded_auc,-0.14393939393939392,-0.19783910588953313,-0.09472745578659791,229
+detector_sim2real (5 folds),detector_base (5 folds),alley_test,false_alarm,0.9074074074074074,0.8518518518518519,0.9629629629629629,108
+detector_sim2real (5 folds),detector_base (5 folds),fe8k_test,false_alarm,0.03499999999999999,-0.010125000000000002,0.08499999999999999,200
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),deepflood_test,acc,-0.003968253968253954,-0.02777777777777779,0.019841269841269826,252
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),deepflood_test,mae,0.023809523809523947,-0.007936507936507908,0.059523809523809534,252
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),deepflood_test_fisheye,acc,-0.02777777777777779,-0.051587301587301626,-0.00396825396825401,252
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),deepflood_test_fisheye,mae,0.051587301587301626,0.015873015873015817,0.08730158730158744,252
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),sturm_test,flooded_auc,-0.011728733114275247,-0.04149711430462521,0.016772602962909045,337
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),alley_test,flooded_auc,-0.017753290480563177,-0.036866180396643765,-0.001457234069870503,229
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),alley_test,false_alarm,0.0092592592592593,0.0,0.02777777777777779,108
+detector_sim2real (5 folds),detector_sim2real_dryval (5 folds),fe8k_test,false_alarm,0.039999999999999994,0.010000000000000009,0.07,200

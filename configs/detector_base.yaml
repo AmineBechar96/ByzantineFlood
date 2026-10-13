@@ -1,0 +1,15 @@
+# Main detector: 5 folds, all real training sources + labelled Grok images.
+name: detector_base
+sources: [deepflood, alleyfloodnet, fisheye8k, grok]
+folds: 5
+epochs: 25
+batch_size: 32
+size: 384
+lr_backbone: 1.0e-4
+lr_head: 1.0e-3
+weight_decay: 1.0e-4
+patience: 6
+num_workers: 8
+seed: 0
+augment: {p_fisheye: 0.7, nuisance: true}
+fisheye_test: true
